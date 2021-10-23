@@ -1,0 +1,16 @@
+  
+GTX1050Ti:
+  compute_major: 6
+  compute_minor: 1
+  max_threads_per_block: 1024
+  max_threads_per_multiprocessor: 2048
+  regs_per_block: 65536
+  regs_per_multiprocessor: 65536
+  warp_size: 32
+  shared_mem_per_block: 49152
+  shared_mem_per_multiprocessor: 98304
+  num_sms: 6
+  shared_mem_per_block_optin: 49152
+  mem_bandwidth_gb: 112
+  base_clock_mhz: 1291
+  peak_gflops_per_second: 2588
