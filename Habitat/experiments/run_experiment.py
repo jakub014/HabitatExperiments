@@ -27,7 +27,7 @@ RESNET50_BATCHES = [4, 8, 16, 24, 32, 40] #[16, 32, 48, 64, 96, 128]
 
 GNMT_BATCHES = [16, 32, 48]
 TRANSFORMER_BATCHES = [32, 48, 64]
-DCGAN_BATCHES = [32, 64]
+DCGAN_BATCHES = [16, 32, 48, 64, 96, 128]
 
 ###############################################################################
 
@@ -160,6 +160,8 @@ def run_dcgan_experiments(context):
             context,
         )
 
+        del inputs
+        torch.cuda.empty_cache()
 
 def run_inception_experiments(context):
     import inception.entry_point as iep
@@ -182,43 +184,6 @@ def run_inception_experiments(context):
 
         del inputs
         torch.cuda.empty_cache()
-
-def run_gnmt_experiments(context):
-    import gnmt.entry_point as gep
-
-    model = gep.skyline_model_provider()
-    iteration = gep.skyline_iteration_provider(model)
-
-    for batch_size in GNMT_BATCHES:
-        inputs = gep.skyline_input_provider(batch_size=batch_size)
-
-        def runnable():
-            iteration(*inputs)
-
-        run_experiment_config(
-            'gnmt+{}'.format(batch_size),
-            runnable,
-            context,
-        )
-
-
-def run_transformer_experiments(context):
-    import transformer.entry_point as tep
-
-    model = tep.skyline_model_provider()
-    iteration = tep.skyline_iteration_provider(model)
-
-    for batch_size in TRANSFORMER_BATCHES:
-        inputs = tep.skyline_input_provider(batch_size=batch_size)
-
-        def runnable():
-            iteration(*inputs)
-
-        run_experiment_config(
-            'transformer+{}'.format(batch_size),
-            runnable,
-            context,
-        )
 
 
 def main():
@@ -244,7 +209,8 @@ def main():
 
     #run_resnet50_experiments(context)
     #torch.cuda.empty_cache()
-    run_inception_experiments(context)
+    #run_inception_experiments(context)
+    run_dcgan_experiments(context)
 
 
 if __name__ == '__main__':
