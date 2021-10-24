@@ -1,202 +1,227 @@
 insertId,jsonPayload.levelname,jsonPayload.message,jsonPayload.name,"labels.""compute.googleapis.com/resource_id""","labels.""compute.googleapis.com/resource_name""","labels.""compute.googleapis.com/zone""","labels.""ml.googleapis.com/endpoint""","labels.""ml.googleapis.com/job_id/log_area""","labels.""ml.googleapis.com/job_state""","labels.""ml.googleapis.com/trial_id""","labels.""ml.googleapis.com/trial_type""",logName,receiveTimestamp,resource.labels.job_id,resource.labels.project_id,resource.labels.task_name,resource.type,severity,textPayload,timestamp
-1jrv79qg16mipnt,INFO,"INFO:Task completed. Exit code (0). Exit reason (SUCCEEDED)
-",,1995320493294078559,cmle-training-16468255725907769062,us-central1-b,,root,,,,projects/qpecs-jakub/logs/master-replica-0,2021-10-23T21:03:38.207046934Z,exp17,qpecs-jakub,master-replica-0,ml_job,INFO,,2021-10-23T21:03:36.616367924Z
-1jrv79qg16mipns,INFO,"('Inception', 128, 15.05472731590271)
-",,1995320493294078559,cmle-training-16468255725907769062,us-central1-b,,root,,,,projects/qpecs-jakub/logs/master-replica-0,2021-10-23T21:03:38.207046934Z,exp17,qpecs-jakub,master-replica-0,ml_job,INFO,,2021-10-23T21:03:36.382708807Z
-1jrv79qg16mipnr,INFO,"('Inception', 128, 15.01586389541626)
-",,1995320493294078559,cmle-training-16468255725907769062,us-central1-b,,root,,,,projects/qpecs-jakub/logs/master-replica-0,2021-10-23T21:03:38.207046934Z,exp17,qpecs-jakub,master-replica-0,ml_job,INFO,,2021-10-23T21:03:36.382706004Z
-1jrv79qg16mipnq,INFO,"('Inception', 128, 14.885647058486938)
-",,1995320493294078559,cmle-training-16468255725907769062,us-central1-b,,root,,,,projects/qpecs-jakub/logs/master-replica-0,2021-10-23T21:03:38.207046934Z,exp17,qpecs-jakub,master-replica-0,ml_job,INFO,,2021-10-23T21:03:36.382702984Z
-1jrv79qg16mipnp,INFO,"('Resnet', 128, 10.822701215744019)
-",,1995320493294078559,cmle-training-16468255725907769062,us-central1-b,,root,,,,projects/qpecs-jakub/logs/master-replica-0,2021-10-23T21:03:38.207046934Z,exp17,qpecs-jakub,master-replica-0,ml_job,INFO,,2021-10-23T21:03:36.382685584Z
-1jrv79qg16mipno,INFO,"('Resnet', 128, 10.889036178588867)
-",,1995320493294078559,cmle-training-16468255725907769062,us-central1-b,,root,,,,projects/qpecs-jakub/logs/master-replica-0,2021-10-23T21:03:38.207046934Z,exp17,qpecs-jakub,master-replica-0,ml_job,INFO,,2021-10-23T21:03:36.382680797Z
-1jrv79qg16mipnn,INFO,"('Resnet', 128, 10.90701699256897)
-",,1995320493294078559,cmle-training-16468255725907769062,us-central1-b,,root,,,,projects/qpecs-jakub/logs/master-replica-0,2021-10-23T21:03:38.207046934Z,exp17,qpecs-jakub,master-replica-0,ml_job,INFO,,2021-10-23T21:03:36.382675018Z
-1jrv79qg16mipnm,INFO,"('Inception', 96, 14.098190546035767)
-",,1995320493294078559,cmle-training-16468255725907769062,us-central1-b,,root,,,,projects/qpecs-jakub/logs/master-replica-0,2021-10-23T21:03:38.207046934Z,exp17,qpecs-jakub,master-replica-0,ml_job,INFO,,2021-10-23T21:03:36.382670185Z
-1jrv79qg16mipnl,INFO,"('Inception', 96, 14.030222177505493)
-",,1995320493294078559,cmle-training-16468255725907769062,us-central1-b,,root,,,,projects/qpecs-jakub/logs/master-replica-0,2021-10-23T21:03:38.207046934Z,exp17,qpecs-jakub,master-replica-0,ml_job,INFO,,2021-10-23T21:03:36.382665416Z
-1jrv79qg16mipnk,INFO,"('Inception', 96, 13.933706998825073)
-",,1995320493294078559,cmle-training-16468255725907769062,us-central1-b,,root,,,,projects/qpecs-jakub/logs/master-replica-0,2021-10-23T21:03:38.207046934Z,exp17,qpecs-jakub,master-replica-0,ml_job,INFO,,2021-10-23T21:03:36.382660623Z
-1jrv79qg16mipnj,INFO,"('Resnet', 96, 10.176337718963623)
-",,1995320493294078559,cmle-training-16468255725907769062,us-central1-b,,root,,,,projects/qpecs-jakub/logs/master-replica-0,2021-10-23T21:03:38.207046934Z,exp17,qpecs-jakub,master-replica-0,ml_job,INFO,,2021-10-23T21:03:36.382655924Z
-1jrv79qg16mipni,INFO,"('Resnet', 96, 10.229372262954712)
-",,1995320493294078559,cmle-training-16468255725907769062,us-central1-b,,root,,,,projects/qpecs-jakub/logs/master-replica-0,2021-10-23T21:03:38.207046934Z,exp17,qpecs-jakub,master-replica-0,ml_job,INFO,,2021-10-23T21:03:36.382650922Z
-1jrv79qg16mipnh,INFO,"('Resnet', 96, 10.278616428375244)
-",,1995320493294078559,cmle-training-16468255725907769062,us-central1-b,,root,,,,projects/qpecs-jakub/logs/master-replica-0,2021-10-23T21:03:38.207046934Z,exp17,qpecs-jakub,master-replica-0,ml_job,INFO,,2021-10-23T21:03:36.382646309Z
-1jrv79qg16mipng,INFO,"('Inception', 64, 14.882817029953003)
-",,1995320493294078559,cmle-training-16468255725907769062,us-central1-b,,root,,,,projects/qpecs-jakub/logs/master-replica-0,2021-10-23T21:03:38.207046934Z,exp17,qpecs-jakub,master-replica-0,ml_job,INFO,,2021-10-23T21:03:36.382625469Z
-1jrv79qg16mipnf,INFO,"('Inception', 64, 14.829628705978394)
-",,1995320493294078559,cmle-training-16468255725907769062,us-central1-b,,root,,,,projects/qpecs-jakub/logs/master-replica-0,2021-10-23T21:03:38.207046934Z,exp17,qpecs-jakub,master-replica-0,ml_job,INFO,,2021-10-23T21:03:36.382621236Z
-1jrv79qg16mipne,INFO,"('Inception', 64, 14.838951349258423)
-",,1995320493294078559,cmle-training-16468255725907769062,us-central1-b,,root,,,,projects/qpecs-jakub/logs/master-replica-0,2021-10-23T21:03:38.207046934Z,exp17,qpecs-jakub,master-replica-0,ml_job,INFO,,2021-10-23T21:03:36.382617126Z
-1jrv79qg16mipnd,INFO,"('Resnet', 64, 10.92372441291809)
-",,1995320493294078559,cmle-training-16468255725907769062,us-central1-b,,root,,,,projects/qpecs-jakub/logs/master-replica-0,2021-10-23T21:03:38.207046934Z,exp17,qpecs-jakub,master-replica-0,ml_job,INFO,,2021-10-23T21:03:36.382614264Z
-1jrv79qg16mipnc,INFO,"('Resnet', 64, 10.932274341583252)
-",,1995320493294078559,cmle-training-16468255725907769062,us-central1-b,,root,,,,projects/qpecs-jakub/logs/master-replica-0,2021-10-23T21:03:38.207046934Z,exp17,qpecs-jakub,master-replica-0,ml_job,INFO,,2021-10-23T21:03:36.382611402Z
-1jrv79qg16mipnb,INFO,"('Resnet', 64, 10.924568891525269)
-",,1995320493294078559,cmle-training-16468255725907769062,us-central1-b,,root,,,,projects/qpecs-jakub/logs/master-replica-0,2021-10-23T21:03:38.207046934Z,exp17,qpecs-jakub,master-replica-0,ml_job,INFO,,2021-10-23T21:03:36.382608651Z
-1jrv79qg16mipna,INFO,"('Inception', 48, 14.520454168319702)
-",,1995320493294078559,cmle-training-16468255725907769062,us-central1-b,,root,,,,projects/qpecs-jakub/logs/master-replica-0,2021-10-23T21:03:38.207046934Z,exp17,qpecs-jakub,master-replica-0,ml_job,INFO,,2021-10-23T21:03:36.382605320Z
-1jrv79qg16mipn9,INFO,"('Inception', 48, 14.53147268295288)
-",,1995320493294078559,cmle-training-16468255725907769062,us-central1-b,,root,,,,projects/qpecs-jakub/logs/master-replica-0,2021-10-23T21:03:38.207046934Z,exp17,qpecs-jakub,master-replica-0,ml_job,INFO,,2021-10-23T21:03:36.382602652Z
-1jrv79qg16mipn8,INFO,"('Inception', 48, 14.519925355911255)
-",,1995320493294078559,cmle-training-16468255725907769062,us-central1-b,,root,,,,projects/qpecs-jakub/logs/master-replica-0,2021-10-23T21:03:38.207046934Z,exp17,qpecs-jakub,master-replica-0,ml_job,INFO,,2021-10-23T21:03:36.382600083Z
-1jrv79qg16mipn7,INFO,"('Resnet', 48, 10.993143558502197)
-",,1995320493294078559,cmle-training-16468255725907769062,us-central1-b,,root,,,,projects/qpecs-jakub/logs/master-replica-0,2021-10-23T21:03:38.207046934Z,exp17,qpecs-jakub,master-replica-0,ml_job,INFO,,2021-10-23T21:03:36.382597462Z
-1jrv79qg16mipn6,INFO,"('Resnet', 48, 10.967504262924194)
-",,1995320493294078559,cmle-training-16468255725907769062,us-central1-b,,root,,,,projects/qpecs-jakub/logs/master-replica-0,2021-10-23T21:03:38.207046934Z,exp17,qpecs-jakub,master-replica-0,ml_job,INFO,,2021-10-23T21:03:36.382594841Z
-1jrv79qg16mipn5,INFO,"('Resnet', 48, 10.941936016082764)
-",,1995320493294078559,cmle-training-16468255725907769062,us-central1-b,,root,,,,projects/qpecs-jakub/logs/master-replica-0,2021-10-23T21:03:38.207046934Z,exp17,qpecs-jakub,master-replica-0,ml_job,INFO,,2021-10-23T21:03:36.382592295Z
-1jrv79qg16mipn4,INFO,"('Inception', 32, 14.566230535507202)
-",,1995320493294078559,cmle-training-16468255725907769062,us-central1-b,,root,,,,projects/qpecs-jakub/logs/master-replica-0,2021-10-23T21:03:38.207046934Z,exp17,qpecs-jakub,master-replica-0,ml_job,INFO,,2021-10-23T21:03:36.382589741Z
-1jrv79qg16mipn3,INFO,"('Inception', 32, 14.469202756881714)
-",,1995320493294078559,cmle-training-16468255725907769062,us-central1-b,,root,,,,projects/qpecs-jakub/logs/master-replica-0,2021-10-23T21:03:38.207046934Z,exp17,qpecs-jakub,master-replica-0,ml_job,INFO,,2021-10-23T21:03:36.382587144Z
-1jrv79qg16mipn2,INFO,"('Inception', 32, 14.59197187423706)
-",,1995320493294078559,cmle-training-16468255725907769062,us-central1-b,,root,,,,projects/qpecs-jakub/logs/master-replica-0,2021-10-23T21:03:38.207046934Z,exp17,qpecs-jakub,master-replica-0,ml_job,INFO,,2021-10-23T21:03:36.382584201Z
-1jrv79qg16mipn1,INFO,"('Resnet', 32, 11.058398485183716)
-",,1995320493294078559,cmle-training-16468255725907769062,us-central1-b,,root,,,,projects/qpecs-jakub/logs/master-replica-0,2021-10-23T21:03:38.207046934Z,exp17,qpecs-jakub,master-replica-0,ml_job,INFO,,2021-10-23T21:03:36.382580367Z
-1jrv79qg16mipn0,INFO,"('Resnet', 32, 11.074779987335205)
-",,1995320493294078559,cmle-training-16468255725907769062,us-central1-b,,root,,,,projects/qpecs-jakub/logs/master-replica-0,2021-10-23T21:03:38.207046934Z,exp17,qpecs-jakub,master-replica-0,ml_job,INFO,,2021-10-23T21:03:36.382577482Z
-1jrv79qg16mipmz,INFO,"('Resnet', 32, 11.036384582519531)
-",,1995320493294078559,cmle-training-16468255725907769062,us-central1-b,,root,,,,projects/qpecs-jakub/logs/master-replica-0,2021-10-23T21:03:38.207046934Z,exp17,qpecs-jakub,master-replica-0,ml_job,INFO,,2021-10-23T21:03:36.382574663Z
-1jrv79qg16mipmy,INFO,"('Inception', 16, 14.87800145149231)
-",,1995320493294078559,cmle-training-16468255725907769062,us-central1-b,,root,,,,projects/qpecs-jakub/logs/master-replica-0,2021-10-23T21:03:38.207046934Z,exp17,qpecs-jakub,master-replica-0,ml_job,INFO,,2021-10-23T21:03:36.382571415Z
-1jrv79qg16mipmx,INFO,"('Inception', 16, 14.834582090377808)
-",,1995320493294078559,cmle-training-16468255725907769062,us-central1-b,,root,,,,projects/qpecs-jakub/logs/master-replica-0,2021-10-23T21:03:38.207046934Z,exp17,qpecs-jakub,master-replica-0,ml_job,INFO,,2021-10-23T21:03:36.382566681Z
-1jrv79qg16mipmw,INFO,"('Inception', 16, 14.966790437698364)
-",,1995320493294078559,cmle-training-16468255725907769062,us-central1-b,,root,,,,projects/qpecs-jakub/logs/master-replica-0,2021-10-23T21:03:38.207046934Z,exp17,qpecs-jakub,master-replica-0,ml_job,INFO,,2021-10-23T21:03:36.382561689Z
-1jrv79qg16mipmv,INFO,"('Resnet', 16, 11.498639345169067)
-",,1995320493294078559,cmle-training-16468255725907769062,us-central1-b,,root,,,,projects/qpecs-jakub/logs/master-replica-0,2021-10-23T21:03:38.207046934Z,exp17,qpecs-jakub,master-replica-0,ml_job,INFO,,2021-10-23T21:03:36.382557424Z
-1jrv79qg16mipmu,INFO,"('Resnet', 16, 11.538696765899658)
-",,1995320493294078559,cmle-training-16468255725907769062,us-central1-b,,root,,,,projects/qpecs-jakub/logs/master-replica-0,2021-10-23T21:03:38.207046934Z,exp17,qpecs-jakub,master-replica-0,ml_job,INFO,,2021-10-23T21:03:36.382550184Z
-1jrv79qg16mipmt,INFO,"('Resnet', 16, 11.425806999206543)
-",,1995320493294078559,cmle-training-16468255725907769062,us-central1-b,,root,,,,projects/qpecs-jakub/logs/master-replica-0,2021-10-23T21:03:38.207046934Z,exp17,qpecs-jakub,master-replica-0,ml_job,INFO,,2021-10-23T21:03:36.382491958Z
-yyyiq6g69mbc1q,INFO,"Hellooo2
-",,1995320493294078559,cmle-training-16468255725907769062,us-central1-b,,root,,,,projects/qpecs-jakub/logs/master-replica-0,2021-10-23T20:55:05.066620511Z,exp17,qpecs-jakub,master-replica-0,ml_job,INFO,,2021-10-23T20:54:40.132448297Z
-yyyiq6g69mbc1p,INFO,"INFO:Running command: python3 -m trainer.task --job-dir=gs://mytestbucketqpecs/exp17/models
-",,1995320493294078559,cmle-training-16468255725907769062,us-central1-b,,root,,,,projects/qpecs-jakub/logs/master-replica-0,2021-10-23T20:55:05.066620511Z,exp17,qpecs-jakub,master-replica-0,ml_job,INFO,,2021-10-23T20:54:39.721816013Z
-yyyiq6g69mbc1o,INFO,"Successfully installed trainer-0.1
-",,1995320493294078559,cmle-training-16468255725907769062,us-central1-b,,root,,,,projects/qpecs-jakub/logs/master-replica-0,2021-10-23T20:55:05.066620511Z,exp17,qpecs-jakub,master-replica-0,ml_job,INFO,,2021-10-23T20:54:39.579911590Z
-yyyiq6g69mbc1n,INFO,"      Successfully uninstalled trainer-0.1
-",,1995320493294078559,cmle-training-16468255725907769062,us-central1-b,,root,,,,projects/qpecs-jakub/logs/master-replica-0,2021-10-23T20:55:05.066620511Z,exp17,qpecs-jakub,master-replica-0,ml_job,INFO,,2021-10-23T20:54:39.550919448Z
-yyyiq6g69mbc1m,INFO,"    Uninstalling trainer-0.1:
-",,1995320493294078559,cmle-training-16468255725907769062,us-central1-b,,root,,,,projects/qpecs-jakub/logs/master-replica-0,2021-10-23T20:55:05.066620511Z,exp17,qpecs-jakub,master-replica-0,ml_job,INFO,,2021-10-23T20:54:39.550099692Z
-yyyiq6g69mbc1l,INFO,"    Found existing installation: trainer 0.1
-",,1995320493294078559,cmle-training-16468255725907769062,us-central1-b,,root,,,,projects/qpecs-jakub/logs/master-replica-0,2021-10-23T20:55:05.066620511Z,exp17,qpecs-jakub,master-replica-0,ml_job,INFO,,2021-10-23T20:54:39.546888728Z
-yyyiq6g69mbc1k,INFO,"  Attempting uninstall: trainer
-",,1995320493294078559,cmle-training-16468255725907769062,us-central1-b,,root,,,,projects/qpecs-jakub/logs/master-replica-0,2021-10-23T20:55:05.066620511Z,exp17,qpecs-jakub,master-replica-0,ml_job,INFO,,2021-10-23T20:54:39.545248890Z
-yyyiq6g69mbc1j,INFO,"Installing collected packages: trainer
-",,1995320493294078559,cmle-training-16468255725907769062,us-central1-b,,root,,,,projects/qpecs-jakub/logs/master-replica-0,2021-10-23T20:55:05.066620511Z,exp17,qpecs-jakub,master-replica-0,ml_job,INFO,,2021-10-23T20:54:39.545205894Z
-yyyiq6g69mbc1i,INFO,"Successfully built trainer
-",,1995320493294078559,cmle-training-16468255725907769062,us-central1-b,,root,,,,projects/qpecs-jakub/logs/master-replica-0,2021-10-23T20:55:05.066620511Z,exp17,qpecs-jakub,master-replica-0,ml_job,INFO,,2021-10-23T20:54:38.446807283Z
-yyyiq6g69mbc1h,INFO,"  Stored in directory: /root/.cache/pip/wheels/85/8e/fc/369b9127972cb554e70a10fc50e449daeaa06845e9493c9552
-",,1995320493294078559,cmle-training-16468255725907769062,us-central1-b,,root,,,,projects/qpecs-jakub/logs/master-replica-0,2021-10-23T20:55:05.066620511Z,exp17,qpecs-jakub,master-replica-0,ml_job,INFO,,2021-10-23T20:54:38.446124317Z
-yyyiq6g69mbc1g,INFO,"  Created wheel for trainer: filename=trainer-0.1-py3-none-any.whl size=16097 sha256=a49248ee32ddcb8edb982a185c2eacabfad79705fc8437aac477917b6aca5583
-",,1995320493294078559,cmle-training-16468255725907769062,us-central1-b,,root,,,,projects/qpecs-jakub/logs/master-replica-0,2021-10-23T20:55:05.066620511Z,exp17,qpecs-jakub,master-replica-0,ml_job,INFO,,2021-10-23T20:54:38.446112853Z
-yyyiq6g69mbc1f,INFO,"  Building wheel for trainer (setup.py): finished with status 'done'
-",,1995320493294078559,cmle-training-16468255725907769062,us-central1-b,,root,,,,projects/qpecs-jakub/logs/master-replica-0,2021-10-23T20:55:05.066620511Z,exp17,qpecs-jakub,master-replica-0,ml_job,INFO,,2021-10-23T20:54:38.445618658Z
-yyyiq6g69mbc1e,INFO,"  Building wheel for trainer (setup.py): started
-",,1995320493294078559,cmle-training-16468255725907769062,us-central1-b,,root,,,,projects/qpecs-jakub/logs/master-replica-0,2021-10-23T20:55:05.066620511Z,exp17,qpecs-jakub,master-replica-0,ml_job,INFO,,2021-10-23T20:54:38.021193391Z
-yyyiq6g69mbc1d,INFO,"Building wheels for collected packages: trainer
-",,1995320493294078559,cmle-training-16468255725907769062,us-central1-b,,root,,,,projects/qpecs-jakub/logs/master-replica-0,2021-10-23T20:55:05.066620511Z,exp17,qpecs-jakub,master-replica-0,ml_job,INFO,,2021-10-23T20:54:38.020579077Z
-yyyiq6g69mbc1c,INFO,"Requirement already satisfied: urllib3!=1.25.0,!=1.25.1,<1.26,>=1.21.1 in /opt/conda/lib/python3.7/site-packages (from requests<3.0.0dev,>=2.18.0->google-api-core<2.0.0dev,>=1.16.0->google-cloud-core<2.0dev,>=1.2.0->google-cloud-storage>=1.14.0->trainer==0.1) (1.25.10)
-",,1995320493294078559,cmle-training-16468255725907769062,us-central1-b,,root,,,,projects/qpecs-jakub/logs/master-replica-0,2021-10-23T20:55:05.066620511Z,exp17,qpecs-jakub,master-replica-0,ml_job,INFO,,2021-10-23T20:54:38.010186159Z
-yyyiq6g69mbc1b,INFO,"Requirement already satisfied: chardet<4,>=3.0.2 in /opt/conda/lib/python3.7/site-packages (from requests<3.0.0dev,>=2.18.0->google-api-core<2.0.0dev,>=1.16.0->google-cloud-core<2.0dev,>=1.2.0->google-cloud-storage>=1.14.0->trainer==0.1) (3.0.4)
-",,1995320493294078559,cmle-training-16468255725907769062,us-central1-b,,root,,,,projects/qpecs-jakub/logs/master-replica-0,2021-10-23T20:55:05.066620511Z,exp17,qpecs-jakub,master-replica-0,ml_job,INFO,,2021-10-23T20:54:38.007911377Z
-yyyiq6g69mbc1a,INFO,"Requirement already satisfied: idna<3,>=2.5 in /opt/conda/lib/python3.7/site-packages (from requests<3.0.0dev,>=2.18.0->google-api-core<2.0.0dev,>=1.16.0->google-cloud-core<2.0dev,>=1.2.0->google-cloud-storage>=1.14.0->trainer==0.1) (2.10)
-",,1995320493294078559,cmle-training-16468255725907769062,us-central1-b,,root,,,,projects/qpecs-jakub/logs/master-replica-0,2021-10-23T20:55:05.066620511Z,exp17,qpecs-jakub,master-replica-0,ml_job,INFO,,2021-10-23T20:54:38.005157414Z
-yyyiq6g69mbc19,INFO,"Requirement already satisfied: certifi>=2017.4.17 in /opt/conda/lib/python3.7/site-packages (from requests<3.0.0dev,>=2.18.0->google-api-core<2.0.0dev,>=1.16.0->google-cloud-core<2.0dev,>=1.2.0->google-cloud-storage>=1.14.0->trainer==0.1) (2020.6.20)
-",,1995320493294078559,cmle-training-16468255725907769062,us-central1-b,,root,,,,projects/qpecs-jakub/logs/master-replica-0,2021-10-23T20:55:05.066620511Z,exp17,qpecs-jakub,master-replica-0,ml_job,INFO,,2021-10-23T20:54:38.003140930Z
-yyyiq6g69mbc18,INFO,"Requirement already satisfied: pycparser in /opt/conda/lib/python3.7/site-packages (from cffi>=1.0.0->google-crc32c<2.0dev,>=1.0; python_version >= ""3.5""->google-resumable-media<2.0dev,>=0.6.0->google-cloud-storage>=1.14.0->trainer==0.1) (2.20)
-",,1995320493294078559,cmle-training-16468255725907769062,us-central1-b,,root,,,,projects/qpecs-jakub/logs/master-replica-0,2021-10-23T20:55:05.066620511Z,exp17,qpecs-jakub,master-replica-0,ml_job,INFO,,2021-10-23T20:54:38.000762496Z
-yyyiq6g69mbc17,INFO,"Requirement already satisfied: pyasn1<0.5.0,>=0.4.6 in /opt/conda/lib/python3.7/site-packages (from pyasn1-modules>=0.2.1->google-auth<2.0dev,>=1.11.0->google-cloud-storage>=1.14.0->trainer==0.1) (0.4.8)
-",,1995320493294078559,cmle-training-16468255725907769062,us-central1-b,,root,,,,projects/qpecs-jakub/logs/master-replica-0,2021-10-23T20:55:05.066620511Z,exp17,qpecs-jakub,master-replica-0,ml_job,INFO,,2021-10-23T20:54:37.998207676Z
-yyyiq6g69mbc16,INFO,"Requirement already satisfied: protobuf>=3.12.0 in /opt/conda/lib/python3.7/site-packages (from google-api-core<2.0.0dev,>=1.16.0->google-cloud-core<2.0dev,>=1.2.0->google-cloud-storage>=1.14.0->trainer==0.1) (3.12.4)
-",,1995320493294078559,cmle-training-16468255725907769062,us-central1-b,,root,,,,projects/qpecs-jakub/logs/master-replica-0,2021-10-23T20:55:05.066620511Z,exp17,qpecs-jakub,master-replica-0,ml_job,INFO,,2021-10-23T20:54:37.994868924Z
-yyyiq6g69mbc15,INFO,"Requirement already satisfied: requests<3.0.0dev,>=2.18.0 in /opt/conda/lib/python3.7/site-packages (from google-api-core<2.0.0dev,>=1.16.0->google-cloud-core<2.0dev,>=1.2.0->google-cloud-storage>=1.14.0->trainer==0.1) (2.24.0)
-",,1995320493294078559,cmle-training-16468255725907769062,us-central1-b,,root,,,,projects/qpecs-jakub/logs/master-replica-0,2021-10-23T20:55:05.066620511Z,exp17,qpecs-jakub,master-replica-0,ml_job,INFO,,2021-10-23T20:54:37.983387764Z
-yyyiq6g69mbc14,INFO,"Requirement already satisfied: googleapis-common-protos<2.0dev,>=1.6.0 in /opt/conda/lib/python3.7/site-packages (from google-api-core<2.0.0dev,>=1.16.0->google-cloud-core<2.0dev,>=1.2.0->google-cloud-storage>=1.14.0->trainer==0.1) (1.51.0)
-",,1995320493294078559,cmle-training-16468255725907769062,us-central1-b,,root,,,,projects/qpecs-jakub/logs/master-replica-0,2021-10-23T20:55:05.066620511Z,exp17,qpecs-jakub,master-replica-0,ml_job,INFO,,2021-10-23T20:54:37.979855340Z
-yyyiq6g69mbc13,INFO,"Requirement already satisfied: cffi>=1.0.0 in /opt/conda/lib/python3.7/site-packages (from google-crc32c<2.0dev,>=1.0; python_version >= ""3.5""->google-resumable-media<2.0dev,>=0.6.0->google-cloud-storage>=1.14.0->trainer==0.1) (1.14.1)
-",,1995320493294078559,cmle-training-16468255725907769062,us-central1-b,,root,,,,projects/qpecs-jakub/logs/master-replica-0,2021-10-23T20:55:05.066620511Z,exp17,qpecs-jakub,master-replica-0,ml_job,INFO,,2021-10-23T20:54:37.977400460Z
-yyyiq6g69mbc12,INFO,"Requirement already satisfied: cachetools<5.0,>=2.0.0 in /opt/conda/lib/python3.7/site-packages (from google-auth<2.0dev,>=1.11.0->google-cloud-storage>=1.14.0->trainer==0.1) (4.1.1)
-",,1995320493294078559,cmle-training-16468255725907769062,us-central1-b,,root,,,,projects/qpecs-jakub/logs/master-replica-0,2021-10-23T20:55:05.066620511Z,exp17,qpecs-jakub,master-replica-0,ml_job,INFO,,2021-10-23T20:54:37.975179377Z
-yyyiq6g69mbc11,INFO,"Requirement already satisfied: rsa<5,>=3.1.4; python_version >= ""3.5"" in /opt/conda/lib/python3.7/site-packages (from google-auth<2.0dev,>=1.11.0->google-cloud-storage>=1.14.0->trainer==0.1) (4.6)
-",,1995320493294078559,cmle-training-16468255725907769062,us-central1-b,,root,,,,projects/qpecs-jakub/logs/master-replica-0,2021-10-23T20:55:05.066620511Z,exp17,qpecs-jakub,master-replica-0,ml_job,INFO,,2021-10-23T20:54:37.972038122Z
-yyyiq6g69mbc10,INFO,"Requirement already satisfied: setuptools>=40.3.0 in /opt/conda/lib/python3.7/site-packages (from google-auth<2.0dev,>=1.11.0->google-cloud-storage>=1.14.0->trainer==0.1) (49.6.0.post20200814)
-",,1995320493294078559,cmle-training-16468255725907769062,us-central1-b,,root,,,,projects/qpecs-jakub/logs/master-replica-0,2021-10-23T20:55:05.066620511Z,exp17,qpecs-jakub,master-replica-0,ml_job,INFO,,2021-10-23T20:54:37.962599993Z
-yyyiq6g69mbc0z,INFO,"Requirement already satisfied: pyasn1-modules>=0.2.1 in /opt/conda/lib/python3.7/site-packages (from google-auth<2.0dev,>=1.11.0->google-cloud-storage>=1.14.0->trainer==0.1) (0.2.7)
-",,1995320493294078559,cmle-training-16468255725907769062,us-central1-b,,root,,,,projects/qpecs-jakub/logs/master-replica-0,2021-10-23T20:55:05.066620511Z,exp17,qpecs-jakub,master-replica-0,ml_job,INFO,,2021-10-23T20:54:37.958664688Z
-yyyiq6g69mbc0y,INFO,"Requirement already satisfied: google-api-core<2.0.0dev,>=1.16.0 in /opt/conda/lib/python3.7/site-packages (from google-cloud-core<2.0dev,>=1.2.0->google-cloud-storage>=1.14.0->trainer==0.1) (1.22.2)
-",,1995320493294078559,cmle-training-16468255725907769062,us-central1-b,,root,,,,projects/qpecs-jakub/logs/master-replica-0,2021-10-23T20:55:05.066620511Z,exp17,qpecs-jakub,master-replica-0,ml_job,INFO,,2021-10-23T20:54:37.945132106Z
-yyyiq6g69mbc0x,INFO,"Requirement already satisfied: six in /opt/conda/lib/python3.7/site-packages (from google-resumable-media<2.0dev,>=0.6.0->google-cloud-storage>=1.14.0->trainer==0.1) (1.15.0)
-",,1995320493294078559,cmle-training-16468255725907769062,us-central1-b,,root,,,,projects/qpecs-jakub/logs/master-replica-0,2021-10-23T20:55:05.066620511Z,exp17,qpecs-jakub,master-replica-0,ml_job,INFO,,2021-10-23T20:54:37.942998636Z
-yyyiq6g69mbc0w,INFO,"Requirement already satisfied: google-crc32c<2.0dev,>=1.0; python_version >= ""3.5"" in /opt/conda/lib/python3.7/site-packages (from google-resumable-media<2.0dev,>=0.6.0->google-cloud-storage>=1.14.0->trainer==0.1) (1.0.0)
-",,1995320493294078559,cmle-training-16468255725907769062,us-central1-b,,root,,,,projects/qpecs-jakub/logs/master-replica-0,2021-10-23T20:55:05.066620511Z,exp17,qpecs-jakub,master-replica-0,ml_job,INFO,,2021-10-23T20:54:37.939244016Z
-yyyiq6g69mbc0v,INFO,"Requirement already satisfied: pytz>=2017.2 in /opt/conda/lib/python3.7/site-packages (from pandas>=0.23.4->trainer==0.1) (2020.1)
-",,1995320493294078559,cmle-training-16468255725907769062,us-central1-b,,root,,,,projects/qpecs-jakub/logs/master-replica-0,2021-10-23T20:55:05.066620511Z,exp17,qpecs-jakub,master-replica-0,ml_job,INFO,,2021-10-23T20:54:37.936446123Z
-yyyiq6g69mbc0u,INFO,"Requirement already satisfied: numpy>=1.15.4 in /opt/conda/lib/python3.7/site-packages (from pandas>=0.23.4->trainer==0.1) (1.18.5)
-",,1995320493294078559,cmle-training-16468255725907769062,us-central1-b,,root,,,,projects/qpecs-jakub/logs/master-replica-0,2021-10-23T20:55:05.066620511Z,exp17,qpecs-jakub,master-replica-0,ml_job,INFO,,2021-10-23T20:54:37.934528480Z
-yyyiq6g69mbc0t,INFO,"Requirement already satisfied: python-dateutil>=2.7.3 in /opt/conda/lib/python3.7/site-packages (from pandas>=0.23.4->trainer==0.1) (2.8.1)
-",,1995320493294078559,cmle-training-16468255725907769062,us-central1-b,,root,,,,projects/qpecs-jakub/logs/master-replica-0,2021-10-23T20:55:05.066620511Z,exp17,qpecs-jakub,master-replica-0,ml_job,INFO,,2021-10-23T20:54:37.931078829Z
-yyyiq6g69mbc0s,INFO,"Requirement already satisfied: google-auth<2.0dev,>=1.11.0 in /opt/conda/lib/python3.7/site-packages (from google-cloud-storage>=1.14.0->trainer==0.1) (1.21.1)
-",,1995320493294078559,cmle-training-16468255725907769062,us-central1-b,,root,,,,projects/qpecs-jakub/logs/master-replica-0,2021-10-23T20:55:05.066620511Z,exp17,qpecs-jakub,master-replica-0,ml_job,INFO,,2021-10-23T20:54:37.923175480Z
-yyyiq6g69mbc0r,INFO,"Requirement already satisfied: google-cloud-core<2.0dev,>=1.2.0 in /opt/conda/lib/python3.7/site-packages (from google-cloud-storage>=1.14.0->trainer==0.1) (1.3.0)
-",,1995320493294078559,cmle-training-16468255725907769062,us-central1-b,,root,,,,projects/qpecs-jakub/logs/master-replica-0,2021-10-23T20:55:05.066620511Z,exp17,qpecs-jakub,master-replica-0,ml_job,INFO,,2021-10-23T20:54:37.919222976Z
-yyyiq6g69mbc0q,INFO,"Requirement already satisfied: google-resumable-media<2.0dev,>=0.6.0 in /opt/conda/lib/python3.7/site-packages (from google-cloud-storage>=1.14.0->trainer==0.1) (1.0.0)
-",,1995320493294078559,cmle-training-16468255725907769062,us-central1-b,,root,,,,projects/qpecs-jakub/logs/master-replica-0,2021-10-23T20:55:05.066620511Z,exp17,qpecs-jakub,master-replica-0,ml_job,INFO,,2021-10-23T20:54:37.912264618Z
-yyyiq6g69mbc0p,INFO,"Requirement already satisfied: pandas>=0.23.4 in /opt/conda/lib/python3.7/site-packages (from trainer==0.1) (1.1.2)
-",,1995320493294078559,cmle-training-16468255725907769062,us-central1-b,,root,,,,projects/qpecs-jakub/logs/master-replica-0,2021-10-23T20:55:05.066620511Z,exp17,qpecs-jakub,master-replica-0,ml_job,INFO,,2021-10-23T20:54:37.905173675Z
-yyyiq6g69mbc0o,INFO,"Requirement already satisfied: google-cloud-storage>=1.14.0 in /opt/conda/lib/python3.7/site-packages (from trainer==0.1) (1.30.0)
-",,1995320493294078559,cmle-training-16468255725907769062,us-central1-b,,root,,,,projects/qpecs-jakub/logs/master-replica-0,2021-10-23T20:55:05.066620511Z,exp17,qpecs-jakub,master-replica-0,ml_job,INFO,,2021-10-23T20:54:37.899713337Z
-yyyiq6g69mbc0n,INFO,"Processing /trainer-0.1.tar.gz
-",,1995320493294078559,cmle-training-16468255725907769062,us-central1-b,,root,,,,projects/qpecs-jakub/logs/master-replica-0,2021-10-23T20:55:05.066620511Z,exp17,qpecs-jakub,master-replica-0,ml_job,INFO,,2021-10-23T20:54:37.528213080Z
-yyyiq6g69mbc0m,INFO,"INFO:Running command: pip3 install --user trainer-0.1.tar.gz
-",,1995320493294078559,cmle-training-16468255725907769062,us-central1-b,,root,,,,projects/qpecs-jakub/logs/master-replica-0,2021-10-23T20:55:05.066620511Z,exp17,qpecs-jakub,master-replica-0,ml_job,INFO,,2021-10-23T20:54:36.963767423Z
-yyyiq6g69mbc0l,INFO,"Successfully installed trainer-0.1
-",,1995320493294078559,cmle-training-16468255725907769062,us-central1-b,,root,,,,projects/qpecs-jakub/logs/master-replica-0,2021-10-23T20:55:05.066620511Z,exp17,qpecs-jakub,master-replica-0,ml_job,INFO,,2021-10-23T20:54:36.707267675Z
-yyyiq6g69mbc0k,INFO,"Installing collected packages: trainer
-",,1995320493294078559,cmle-training-16468255725907769062,us-central1-b,,root,,,,projects/qpecs-jakub/logs/master-replica-0,2021-10-23T20:55:05.066620511Z,exp17,qpecs-jakub,master-replica-0,ml_job,INFO,,2021-10-23T20:54:36.681993493Z
-yyyiq6g69mbc0j,INFO,"Successfully built trainer
-",,1995320493294078559,cmle-training-16468255725907769062,us-central1-b,,root,,,,projects/qpecs-jakub/logs/master-replica-0,2021-10-23T20:55:05.066620511Z,exp17,qpecs-jakub,master-replica-0,ml_job,INFO,,2021-10-23T20:54:36.681797132Z
-yyyiq6g69mbc0i,INFO,"  Stored in directory: /root/.cache/pip/wheels/85/8e/fc/369b9127972cb554e70a10fc50e449daeaa06845e9493c9552
-",,1995320493294078559,cmle-training-16468255725907769062,us-central1-b,,root,,,,projects/qpecs-jakub/logs/master-replica-0,2021-10-23T20:55:05.066620511Z,exp17,qpecs-jakub,master-replica-0,ml_job,INFO,,2021-10-23T20:54:36.681158209Z
-yyyiq6g69mbc0h,INFO,"  Created wheel for trainer: filename=trainer-0.1-py3-none-any.whl size=16097 sha256=68f32506b80814b061ab68df5458c47b1d28eaf0165e4dfb1d12dd314fa262df
-",,1995320493294078559,cmle-training-16468255725907769062,us-central1-b,,root,,,,projects/qpecs-jakub/logs/master-replica-0,2021-10-23T20:55:05.066620511Z,exp17,qpecs-jakub,master-replica-0,ml_job,INFO,,2021-10-23T20:54:36.681081931Z
-yyyiq6g69mbc0g,INFO,"  Building wheel for trainer (setup.py): finished with status 'done'
-",,1995320493294078559,cmle-training-16468255725907769062,us-central1-b,,root,,,,projects/qpecs-jakub/logs/master-replica-0,2021-10-23T20:55:05.066620511Z,exp17,qpecs-jakub,master-replica-0,ml_job,INFO,,2021-10-23T20:54:36.680465720Z
-yyyiq6g69mbc0f,INFO,"  Building wheel for trainer (setup.py): started
-",,1995320493294078559,cmle-training-16468255725907769062,us-central1-b,,root,,,,projects/qpecs-jakub/logs/master-replica-0,2021-10-23T20:55:05.066620511Z,exp17,qpecs-jakub,master-replica-0,ml_job,INFO,,2021-10-23T20:54:36.234206290Z
-yyyiq6g69mbc0e,INFO,"Building wheels for collected packages: trainer
-",,1995320493294078559,cmle-training-16468255725907769062,us-central1-b,,root,,,,projects/qpecs-jakub/logs/master-replica-0,2021-10-23T20:55:05.066620511Z,exp17,qpecs-jakub,master-replica-0,ml_job,INFO,,2021-10-23T20:54:36.233429475Z
-yyyiq6g69mbc0d,INFO,"Processing /trainer-0.1.tar.gz
-",,1995320493294078559,cmle-training-16468255725907769062,us-central1-b,,root,,,,projects/qpecs-jakub/logs/master-replica-0,2021-10-23T20:55:05.066620511Z,exp17,qpecs-jakub,master-replica-0,ml_job,INFO,,2021-10-23T20:54:35.811733114Z
-yyyiq6g69mbc0c,INFO,"INFO:Running command: pip3 install --user --upgrade --force-reinstall --no-deps trainer-0.1.tar.gz
-",,1995320493294078559,cmle-training-16468255725907769062,us-central1-b,,root,,,,projects/qpecs-jakub/logs/master-replica-0,2021-10-23T20:55:05.066620511Z,exp17,qpecs-jakub,master-replica-0,ml_job,INFO,,2021-10-23T20:54:35.237072919Z
-yyyiq6g69mbc0b,INFO,"INFO:Installing the package: gs://mytestbucketqpecs/exp17/models/packages/a10b761f44fc9351e5f76f6e5ac6f287fb71104562a8565a21a9f465b1ad0558/trainer-0.1.tar.gz
-",,1995320493294078559,cmle-training-16468255725907769062,us-central1-b,,root,,,,projects/qpecs-jakub/logs/master-replica-0,2021-10-23T20:55:05.066620511Z,exp17,qpecs-jakub,master-replica-0,ml_job,INFO,,2021-10-23T20:54:35.237024827Z
-yyyiq6g69mbc0a,INFO,"INFO:Running command: gsutil -q cp gs://mytestbucketqpecs/exp17/models/packages/a10b761f44fc9351e5f76f6e5ac6f287fb71104562a8565a21a9f465b1ad0558/trainer-0.1.tar.gz trainer-0.1.tar.gz
-",,1995320493294078559,cmle-training-16468255725907769062,us-central1-b,,root,,,,projects/qpecs-jakub/logs/master-replica-0,2021-10-23T20:55:05.066620511Z,exp17,qpecs-jakub,master-replica-0,ml_job,INFO,,2021-10-23T20:54:34.251119822Z
-yyyiq6g69mbc09,INFO,"INFO:Downloading the package: gs://mytestbucketqpecs/exp17/models/packages/a10b761f44fc9351e5f76f6e5ac6f287fb71104562a8565a21a9f465b1ad0558/trainer-0.1.tar.gz
-",,1995320493294078559,cmle-training-16468255725907769062,us-central1-b,,root,,,,projects/qpecs-jakub/logs/master-replica-0,2021-10-23T20:55:05.066620511Z,exp17,qpecs-jakub,master-replica-0,ml_job,INFO,,2021-10-23T20:54:34.251113575Z
-yyyiq6g69mbc08,INFO,"INFO:Running module trainer.task.
-",,1995320493294078559,cmle-training-16468255725907769062,us-central1-b,,root,,,,projects/qpecs-jakub/logs/master-replica-0,2021-10-23T20:55:05.066620511Z,exp17,qpecs-jakub,master-replica-0,ml_job,INFO,,2021-10-23T20:54:34.251082525Z
-yyyiq6g69mbc07,INFO,"INFO:Running task with arguments: --module_name=trainer.task --package_uris=gs://mytestbucketqpecs/exp17/models/packages/a10b761f44fc9351e5f76f6e5ac6f287fb71104562a8565a21a9f465b1ad0558/trainer-0.1.tar.gz --job-dir=gs://mytestbucketqpecs/exp17/models
-",,1995320493294078559,cmle-training-16468255725907769062,us-central1-b,,root,,,,projects/qpecs-jakub/logs/master-replica-0,2021-10-23T20:55:05.066620511Z,exp17,qpecs-jakub,master-replica-0,ml_job,INFO,,2021-10-23T20:54:34.249927928Z
-yyyiq6g69mbc06,INFO,"INFO:Running run_module.py
-",,1995320493294078559,cmle-training-16468255725907769062,us-central1-b,,root,,,,projects/qpecs-jakub/logs/master-replica-0,2021-10-23T20:55:05.066620511Z,exp17,qpecs-jakub,master-replica-0,ml_job,INFO,,2021-10-23T20:54:34.183887497Z
-yyyiq6g69mbc05,INFO,"INFO:Updating master address to local address cmle-training-16468255725907769062
-",,1995320493294078559,cmle-training-16468255725907769062,us-central1-b,,root,,,,projects/qpecs-jakub/logs/master-replica-0,2021-10-23T20:55:05.066620511Z,exp17,qpecs-jakub,master-replica-0,ml_job,INFO,,2021-10-23T20:54:34.183839059Z
-1wjkq8jg38qhlhm,NOTICE,"File system has been successfully mounted.
-",root,1995320493294078559,cmle-training-16468255725907769062,us-central1-b,,gcsfuse,,,,projects/qpecs-jakub/logs/gcsfuse.logs.userproject,2021-10-23T20:55:05.066786685Z,exp17,qpecs-jakub,master-replica-0.gcsfuse,ml_job,NOTICE,,2021-10-23T20:48:08.427123938Z
-1wjkq8jg38qhlhl,NOTICE,"Mounting file system ""gcsfuse""...
-",root,1995320493294078559,cmle-training-16468255725907769062,us-central1-b,,gcsfuse,,,,projects/qpecs-jakub/logs/gcsfuse.logs.userproject,2021-10-23T20:55:05.066786685Z,exp17,qpecs-jakub,master-replica-0.gcsfuse,ml_job,NOTICE,,2021-10-23T20:48:08.397109173Z
-1wjkq8jg38qhlhk,NOTICE,"Opening GCS connection...
-",root,1995320493294078559,cmle-training-16468255725907769062,us-central1-b,,gcsfuse,,,,projects/qpecs-jakub/logs/gcsfuse.logs.userproject,2021-10-23T20:55:05.066786685Z,exp17,qpecs-jakub,master-replica-0.gcsfuse,ml_job,NOTICE,,2021-10-23T20:48:08.394952990Z
-fjxv9tc6px,,,,,,,,,,,,projects/qpecs-jakub/logs/ml.googleapis.com%2Fexp17,2021-10-23T20:46:41.760130007Z,exp17,qpecs-jakub,service,ml_job,INFO,Waiting for training program to start.,2021-10-23T20:46:41.093531686Z
-d1hon8c2pn,,Job exp17 is queued.,,,,,ml.googleapis.com,,QUEUED,,,projects/qpecs-jakub/logs/ml.googleapis.com%2Fexp17,2021-10-23T20:46:39.643028283Z,exp17,qpecs-jakub,service,ml_job,INFO,,2021-10-23T20:46:39.554Z
-fjxv9tc6pw,,,,,,,,,,,,projects/qpecs-jakub/logs/ml.googleapis.com%2Fexp17,2021-10-23T20:46:40.756726554Z,exp17,qpecs-jakub,service,ml_job,INFO,Waiting for job to be provisioned.,2021-10-23T20:46:39.463358736Z
-d1hon8c2pm,,Job creation request has been successfully validated.,,,,,ml.googleapis.com,,,,,projects/qpecs-jakub/logs/ml.googleapis.com%2Fexp17,2021-10-23T20:46:39.643028283Z,exp17,qpecs-jakub,service,ml_job,INFO,,2021-10-23T20:46:39.294Z
-d1hon8c2pl,,Validating job requirements...,,,,,ml.googleapis.com,,,,,projects/qpecs-jakub/logs/ml.googleapis.com%2Fexp17,2021-10-23T20:46:39.643028283Z,exp17,qpecs-jakub,service,ml_job,INFO,,2021-10-23T20:46:39.087Z
+usularchov,,,,,,,,,,,,projects/qpecs-jakub/logs/ml.googleapis.com%2Fexp3T4,2021-10-24T10:09:05.561243414Z,exp3T4,qpecs-jakub,service,ml_job,INFO,Job completed successfully.,2021-10-24T10:09:04.893631379Z
+b3w58xg65qrbkp,INFO,"INFO:Task completed. Exit code (0). Exit reason (SUCCEEDED)
+",,3262200743122736105,cmle-training-784952370485209087,us-central1-b,,root,,,,projects/qpecs-jakub/logs/master-replica-0,2021-10-24T10:06:39.439077873Z,exp3T4,qpecs-jakub,master-replica-0,ml_job,INFO,,2021-10-24T10:06:36.346626131Z
+b3w58xg65qrbko,INFO,"('dcgan', 128, 1.6230978965759277)
+",,3262200743122736105,cmle-training-784952370485209087,us-central1-b,,root,,,,projects/qpecs-jakub/logs/master-replica-0,2021-10-24T10:06:39.439077873Z,exp3T4,qpecs-jakub,master-replica-0,ml_job,INFO,,2021-10-24T10:06:36.145701430Z
+b3w58xg65qrbkn,INFO,"('dcgan', 128, 1.615325689315796)
+",,3262200743122736105,cmle-training-784952370485209087,us-central1-b,,root,,,,projects/qpecs-jakub/logs/master-replica-0,2021-10-24T10:06:39.439077873Z,exp3T4,qpecs-jakub,master-replica-0,ml_job,INFO,,2021-10-24T10:06:36.145698474Z
+b3w58xg65qrbkm,INFO,"('dcgan', 128, 1.6199305057525635)
+",,3262200743122736105,cmle-training-784952370485209087,us-central1-b,,root,,,,projects/qpecs-jakub/logs/master-replica-0,2021-10-24T10:06:39.439077873Z,exp3T4,qpecs-jakub,master-replica-0,ml_job,INFO,,2021-10-24T10:06:36.145695534Z
+b3w58xg65qrbkl,INFO,"('Resnet', 128, 1.308953046798706)
+",,3262200743122736105,cmle-training-784952370485209087,us-central1-b,,root,,,,projects/qpecs-jakub/logs/master-replica-0,2021-10-24T10:06:39.439077873Z,exp3T4,qpecs-jakub,master-replica-0,ml_job,INFO,,2021-10-24T10:06:36.145692509Z
+b3w58xg65qrbkk,INFO,"('Resnet', 128, 1.3227674961090088)
+",,3262200743122736105,cmle-training-784952370485209087,us-central1-b,,root,,,,projects/qpecs-jakub/logs/master-replica-0,2021-10-24T10:06:39.439077873Z,exp3T4,qpecs-jakub,master-replica-0,ml_job,INFO,,2021-10-24T10:06:36.145689541Z
+b3w58xg65qrbkj,INFO,"('Resnet', 128, 1.3607535362243652)
+",,3262200743122736105,cmle-training-784952370485209087,us-central1-b,,root,,,,projects/qpecs-jakub/logs/master-replica-0,2021-10-24T10:06:39.439077873Z,exp3T4,qpecs-jakub,master-replica-0,ml_job,INFO,,2021-10-24T10:06:36.145686558Z
+b3w58xg65qrbki,INFO,"('dcgan', 96, 1.4134690761566162)
+",,3262200743122736105,cmle-training-784952370485209087,us-central1-b,,root,,,,projects/qpecs-jakub/logs/master-replica-0,2021-10-24T10:06:39.439077873Z,exp3T4,qpecs-jakub,master-replica-0,ml_job,INFO,,2021-10-24T10:06:36.145683605Z
+b3w58xg65qrbkh,INFO,"('dcgan', 96, 1.4121339321136475)
+",,3262200743122736105,cmle-training-784952370485209087,us-central1-b,,root,,,,projects/qpecs-jakub/logs/master-replica-0,2021-10-24T10:06:39.439077873Z,exp3T4,qpecs-jakub,master-replica-0,ml_job,INFO,,2021-10-24T10:06:36.145679861Z
+b3w58xg65qrbkg,INFO,"('dcgan', 96, 1.3990478515625)
+",,3262200743122736105,cmle-training-784952370485209087,us-central1-b,,root,,,,projects/qpecs-jakub/logs/master-replica-0,2021-10-24T10:06:39.439077873Z,exp3T4,qpecs-jakub,master-replica-0,ml_job,INFO,,2021-10-24T10:06:36.145669584Z
+b3w58xg65qrbkf,INFO,"('Resnet', 96, 1.2567129135131836)
+",,3262200743122736105,cmle-training-784952370485209087,us-central1-b,,root,,,,projects/qpecs-jakub/logs/master-replica-0,2021-10-24T10:06:39.439077873Z,exp3T4,qpecs-jakub,master-replica-0,ml_job,INFO,,2021-10-24T10:06:36.145665099Z
+b3w58xg65qrbke,INFO,"('Resnet', 96, 1.2530465126037598)
+",,3262200743122736105,cmle-training-784952370485209087,us-central1-b,,root,,,,projects/qpecs-jakub/logs/master-replica-0,2021-10-24T10:06:39.439077873Z,exp3T4,qpecs-jakub,master-replica-0,ml_job,INFO,,2021-10-24T10:06:36.145660744Z
+b3w58xg65qrbkd,INFO,"('Resnet', 96, 1.2772693634033203)
+",,3262200743122736105,cmle-training-784952370485209087,us-central1-b,,root,,,,projects/qpecs-jakub/logs/master-replica-0,2021-10-24T10:06:39.439077873Z,exp3T4,qpecs-jakub,master-replica-0,ml_job,INFO,,2021-10-24T10:06:36.145655779Z
+b3w58xg65qrbkc,INFO,"('dcgan', 64, 1.533360242843628)
+",,3262200743122736105,cmle-training-784952370485209087,us-central1-b,,root,,,,projects/qpecs-jakub/logs/master-replica-0,2021-10-24T10:06:39.439077873Z,exp3T4,qpecs-jakub,master-replica-0,ml_job,INFO,,2021-10-24T10:06:36.145650369Z
+b3w58xg65qrbkb,INFO,"('dcgan', 64, 1.532625436782837)
+",,3262200743122736105,cmle-training-784952370485209087,us-central1-b,,root,,,,projects/qpecs-jakub/logs/master-replica-0,2021-10-24T10:06:39.439077873Z,exp3T4,qpecs-jakub,master-replica-0,ml_job,INFO,,2021-10-24T10:06:36.145645642Z
+b3w58xg65qrbka,INFO,"('dcgan', 64, 1.5124433040618896)
+",,3262200743122736105,cmle-training-784952370485209087,us-central1-b,,root,,,,projects/qpecs-jakub/logs/master-replica-0,2021-10-24T10:06:39.439077873Z,exp3T4,qpecs-jakub,master-replica-0,ml_job,INFO,,2021-10-24T10:06:36.145641129Z
+b3w58xg65qrbk9,INFO,"('Resnet', 64, 1.414015531539917)
+",,3262200743122736105,cmle-training-784952370485209087,us-central1-b,,root,,,,projects/qpecs-jakub/logs/master-replica-0,2021-10-24T10:06:39.439077873Z,exp3T4,qpecs-jakub,master-replica-0,ml_job,INFO,,2021-10-24T10:06:36.145636506Z
+b3w58xg65qrbk8,INFO,"('Resnet', 64, 1.3963983058929443)
+",,3262200743122736105,cmle-training-784952370485209087,us-central1-b,,root,,,,projects/qpecs-jakub/logs/master-replica-0,2021-10-24T10:06:39.439077873Z,exp3T4,qpecs-jakub,master-replica-0,ml_job,INFO,,2021-10-24T10:06:36.145632292Z
+b3w58xg65qrbk7,INFO,"('Resnet', 64, 1.4294452667236328)
+",,3262200743122736105,cmle-training-784952370485209087,us-central1-b,,root,,,,projects/qpecs-jakub/logs/master-replica-0,2021-10-24T10:06:39.439077873Z,exp3T4,qpecs-jakub,master-replica-0,ml_job,INFO,,2021-10-24T10:06:36.145627732Z
+b3w58xg65qrbk6,INFO,"('dcgan', 48, 1.8910388946533203)
+",,3262200743122736105,cmle-training-784952370485209087,us-central1-b,,root,,,,projects/qpecs-jakub/logs/master-replica-0,2021-10-24T10:06:39.439077873Z,exp3T4,qpecs-jakub,master-replica-0,ml_job,INFO,,2021-10-24T10:06:36.145623735Z
+b3w58xg65qrbk5,INFO,"('dcgan', 48, 1.860408067703247)
+",,3262200743122736105,cmle-training-784952370485209087,us-central1-b,,root,,,,projects/qpecs-jakub/logs/master-replica-0,2021-10-24T10:06:39.439077873Z,exp3T4,qpecs-jakub,master-replica-0,ml_job,INFO,,2021-10-24T10:06:36.145619240Z
+b3w58xg65qrbk4,INFO,"('dcgan', 48, 1.81789231300354)
+",,3262200743122736105,cmle-training-784952370485209087,us-central1-b,,root,,,,projects/qpecs-jakub/logs/master-replica-0,2021-10-24T10:06:39.439077873Z,exp3T4,qpecs-jakub,master-replica-0,ml_job,INFO,,2021-10-24T10:06:36.145615013Z
+b3w58xg65qrbk3,INFO,"('Resnet', 48, 1.4728851318359375)
+",,3262200743122736105,cmle-training-784952370485209087,us-central1-b,,root,,,,projects/qpecs-jakub/logs/master-replica-0,2021-10-24T10:06:39.439077873Z,exp3T4,qpecs-jakub,master-replica-0,ml_job,INFO,,2021-10-24T10:06:36.145610709Z
+b3w58xg65qrbk2,INFO,"('Resnet', 48, 1.5142219066619873)
+",,3262200743122736105,cmle-training-784952370485209087,us-central1-b,,root,,,,projects/qpecs-jakub/logs/master-replica-0,2021-10-24T10:06:39.439077873Z,exp3T4,qpecs-jakub,master-replica-0,ml_job,INFO,,2021-10-24T10:06:36.145606339Z
+b3w58xg65qrbk1,INFO,"('Resnet', 48, 1.5069983005523682)
+",,3262200743122736105,cmle-training-784952370485209087,us-central1-b,,root,,,,projects/qpecs-jakub/logs/master-replica-0,2021-10-24T10:06:39.439077873Z,exp3T4,qpecs-jakub,master-replica-0,ml_job,INFO,,2021-10-24T10:06:36.145601194Z
+b3w58xg65qrbk0,INFO,"('dcgan', 32, 1.955716848373413)
+",,3262200743122736105,cmle-training-784952370485209087,us-central1-b,,root,,,,projects/qpecs-jakub/logs/master-replica-0,2021-10-24T10:06:39.439077873Z,exp3T4,qpecs-jakub,master-replica-0,ml_job,INFO,,2021-10-24T10:06:36.145597207Z
+b3w58xg65qrbjz,INFO,"('dcgan', 32, 1.996340274810791)
+",,3262200743122736105,cmle-training-784952370485209087,us-central1-b,,root,,,,projects/qpecs-jakub/logs/master-replica-0,2021-10-24T10:06:39.439077873Z,exp3T4,qpecs-jakub,master-replica-0,ml_job,INFO,,2021-10-24T10:06:36.145593272Z
+b3w58xg65qrbjy,INFO,"('dcgan', 32, 1.9364264011383057)
+",,3262200743122736105,cmle-training-784952370485209087,us-central1-b,,root,,,,projects/qpecs-jakub/logs/master-replica-0,2021-10-24T10:06:39.439077873Z,exp3T4,qpecs-jakub,master-replica-0,ml_job,INFO,,2021-10-24T10:06:36.145590016Z
+b3w58xg65qrbjx,INFO,"('Resnet', 32, 1.7132823467254639)
+",,3262200743122736105,cmle-training-784952370485209087,us-central1-b,,root,,,,projects/qpecs-jakub/logs/master-replica-0,2021-10-24T10:06:39.439077873Z,exp3T4,qpecs-jakub,master-replica-0,ml_job,INFO,,2021-10-24T10:06:36.145587274Z
+b3w58xg65qrbjw,INFO,"('Resnet', 32, 1.7176413536071777)
+",,3262200743122736105,cmle-training-784952370485209087,us-central1-b,,root,,,,projects/qpecs-jakub/logs/master-replica-0,2021-10-24T10:06:39.439077873Z,exp3T4,qpecs-jakub,master-replica-0,ml_job,INFO,,2021-10-24T10:06:36.145584336Z
+b3w58xg65qrbjv,INFO,"('Resnet', 32, 1.7880516052246094)
+",,3262200743122736105,cmle-training-784952370485209087,us-central1-b,,root,,,,projects/qpecs-jakub/logs/master-replica-0,2021-10-24T10:06:39.439077873Z,exp3T4,qpecs-jakub,master-replica-0,ml_job,INFO,,2021-10-24T10:06:36.145580934Z
+b3w58xg65qrbju,INFO,"('dcgan', 16, 1.7707324028015137)
+",,3262200743122736105,cmle-training-784952370485209087,us-central1-b,,root,,,,projects/qpecs-jakub/logs/master-replica-0,2021-10-24T10:06:39.439077873Z,exp3T4,qpecs-jakub,master-replica-0,ml_job,INFO,,2021-10-24T10:06:36.145577800Z
+b3w58xg65qrbjt,INFO,"('dcgan', 16, 1.7299318313598633)
+",,3262200743122736105,cmle-training-784952370485209087,us-central1-b,,root,,,,projects/qpecs-jakub/logs/master-replica-0,2021-10-24T10:06:39.439077873Z,exp3T4,qpecs-jakub,master-replica-0,ml_job,INFO,,2021-10-24T10:06:36.145574760Z
+b3w58xg65qrbjs,INFO,"('dcgan', 16, 1.6650660037994385)
+",,3262200743122736105,cmle-training-784952370485209087,us-central1-b,,root,,,,projects/qpecs-jakub/logs/master-replica-0,2021-10-24T10:06:39.439077873Z,exp3T4,qpecs-jakub,master-replica-0,ml_job,INFO,,2021-10-24T10:06:36.145571443Z
+b3w58xg65qrbjr,INFO,"('Resnet', 16, 2.4180727005004883)
+",,3262200743122736105,cmle-training-784952370485209087,us-central1-b,,root,,,,projects/qpecs-jakub/logs/master-replica-0,2021-10-24T10:06:39.439077873Z,exp3T4,qpecs-jakub,master-replica-0,ml_job,INFO,,2021-10-24T10:06:36.145568160Z
+b3w58xg65qrbjq,INFO,"('Resnet', 16, 2.3924810886383057)
+",,3262200743122736105,cmle-training-784952370485209087,us-central1-b,,root,,,,projects/qpecs-jakub/logs/master-replica-0,2021-10-24T10:06:39.439077873Z,exp3T4,qpecs-jakub,master-replica-0,ml_job,INFO,,2021-10-24T10:06:36.145564382Z
+b3w58xg65qrbjp,INFO,"('Resnet', 16, 2.33190655708313)
+",,3262200743122736105,cmle-training-784952370485209087,us-central1-b,,root,,,,projects/qpecs-jakub/logs/master-replica-0,2021-10-24T10:06:39.439077873Z,exp3T4,qpecs-jakub,master-replica-0,ml_job,INFO,,2021-10-24T10:06:36.145561316Z
+b3w58xg65qrbjo,INFO,"('Inception', 24, 15.955402851104736)
+",,3262200743122736105,cmle-training-784952370485209087,us-central1-b,,root,,,,projects/qpecs-jakub/logs/master-replica-0,2021-10-24T10:06:39.439077873Z,exp3T4,qpecs-jakub,master-replica-0,ml_job,INFO,,2021-10-24T10:06:36.145557864Z
+b3w58xg65qrbjn,INFO,"('Inception', 24, 16.100514888763428)
+",,3262200743122736105,cmle-training-784952370485209087,us-central1-b,,root,,,,projects/qpecs-jakub/logs/master-replica-0,2021-10-24T10:06:39.439077873Z,exp3T4,qpecs-jakub,master-replica-0,ml_job,INFO,,2021-10-24T10:06:36.145554791Z
+b3w58xg65qrbjm,INFO,"('Inception', 24, 16.281041860580444)
+",,3262200743122736105,cmle-training-784952370485209087,us-central1-b,,root,,,,projects/qpecs-jakub/logs/master-replica-0,2021-10-24T10:06:39.439077873Z,exp3T4,qpecs-jakub,master-replica-0,ml_job,INFO,,2021-10-24T10:06:36.145551851Z
+b3w58xg65qrbjl,INFO,"('Inception', 16, 15.919881105422974)
+",,3262200743122736105,cmle-training-784952370485209087,us-central1-b,,root,,,,projects/qpecs-jakub/logs/master-replica-0,2021-10-24T10:06:39.439077873Z,exp3T4,qpecs-jakub,master-replica-0,ml_job,INFO,,2021-10-24T10:06:36.145548783Z
+b3w58xg65qrbjk,INFO,"('Inception', 16, 16.321025133132935)
+",,3262200743122736105,cmle-training-784952370485209087,us-central1-b,,root,,,,projects/qpecs-jakub/logs/master-replica-0,2021-10-24T10:06:39.439077873Z,exp3T4,qpecs-jakub,master-replica-0,ml_job,INFO,,2021-10-24T10:06:36.145545841Z
+b3w58xg65qrbjj,INFO,"('Inception', 16, 15.80457615852356)
+",,3262200743122736105,cmle-training-784952370485209087,us-central1-b,,root,,,,projects/qpecs-jakub/logs/master-replica-0,2021-10-24T10:06:39.439077873Z,exp3T4,qpecs-jakub,master-replica-0,ml_job,INFO,,2021-10-24T10:06:36.145542818Z
+b3w58xg65qrbji,INFO,"('Inception', 8, 18.641525268554688)
+",,3262200743122736105,cmle-training-784952370485209087,us-central1-b,,root,,,,projects/qpecs-jakub/logs/master-replica-0,2021-10-24T10:06:39.439077873Z,exp3T4,qpecs-jakub,master-replica-0,ml_job,INFO,,2021-10-24T10:06:36.145539840Z
+b3w58xg65qrbjh,INFO,"('Inception', 8, 18.56936240196228)
+",,3262200743122736105,cmle-training-784952370485209087,us-central1-b,,root,,,,projects/qpecs-jakub/logs/master-replica-0,2021-10-24T10:06:39.439077873Z,exp3T4,qpecs-jakub,master-replica-0,ml_job,INFO,,2021-10-24T10:06:36.145536861Z
+b3w58xg65qrbjg,INFO,"('Inception', 8, 18.724069356918335)
+",,3262200743122736105,cmle-training-784952370485209087,us-central1-b,,root,,,,projects/qpecs-jakub/logs/master-replica-0,2021-10-24T10:06:39.439077873Z,exp3T4,qpecs-jakub,master-replica-0,ml_job,INFO,,2021-10-24T10:06:36.145533815Z
+b3w58xg65qrbjf,INFO,"('Inception', 4, 23.88868284225464)
+",,3262200743122736105,cmle-training-784952370485209087,us-central1-b,,root,,,,projects/qpecs-jakub/logs/master-replica-0,2021-10-24T10:06:39.439077873Z,exp3T4,qpecs-jakub,master-replica-0,ml_job,INFO,,2021-10-24T10:06:36.145530488Z
+b3w58xg65qrbje,INFO,"('Inception', 4, 23.803913831710815)
+",,3262200743122736105,cmle-training-784952370485209087,us-central1-b,,root,,,,projects/qpecs-jakub/logs/master-replica-0,2021-10-24T10:06:39.439077873Z,exp3T4,qpecs-jakub,master-replica-0,ml_job,INFO,,2021-10-24T10:06:36.145524910Z
+b3w58xg65qrbjd,INFO,"('Inception', 4, 25.375603914260864)
+",,3262200743122736105,cmle-training-784952370485209087,us-central1-b,,root,,,,projects/qpecs-jakub/logs/master-replica-0,2021-10-24T10:06:39.439077873Z,exp3T4,qpecs-jakub,master-replica-0,ml_job,INFO,,2021-10-24T10:06:36.145467658Z
+ussz9qg17fv1az,INFO,"Hihi
+",,3262200743122736105,cmle-training-784952370485209087,us-central1-b,,root,,,,projects/qpecs-jakub/logs/master-replica-0,2021-10-24T10:01:38.248822317Z,exp3T4,qpecs-jakub,master-replica-0,ml_job,INFO,,2021-10-24T10:01:12.673216033Z
+ussz9qg17fv1ay,INFO,"INFO:Running command: python3 -m trainer.task --job-dir=gs://mytestbucketqpecs/exp3T4/models
+",,3262200743122736105,cmle-training-784952370485209087,us-central1-b,,root,,,,projects/qpecs-jakub/logs/master-replica-0,2021-10-24T10:01:38.248822317Z,exp3T4,qpecs-jakub,master-replica-0,ml_job,INFO,,2021-10-24T10:01:12.275363949Z
+ussz9qg17fv1ax,INFO,"Successfully installed trainer-0.1
+",,3262200743122736105,cmle-training-784952370485209087,us-central1-b,,root,,,,projects/qpecs-jakub/logs/master-replica-0,2021-10-24T10:01:38.248822317Z,exp3T4,qpecs-jakub,master-replica-0,ml_job,INFO,,2021-10-24T10:01:12.128493933Z
+ussz9qg17fv1aw,INFO,"      Successfully uninstalled trainer-0.1
+",,3262200743122736105,cmle-training-784952370485209087,us-central1-b,,root,,,,projects/qpecs-jakub/logs/master-replica-0,2021-10-24T10:01:38.248822317Z,exp3T4,qpecs-jakub,master-replica-0,ml_job,INFO,,2021-10-24T10:01:12.099728806Z
+ussz9qg17fv1av,INFO,"    Uninstalling trainer-0.1:
+",,3262200743122736105,cmle-training-784952370485209087,us-central1-b,,root,,,,projects/qpecs-jakub/logs/master-replica-0,2021-10-24T10:01:38.248822317Z,exp3T4,qpecs-jakub,master-replica-0,ml_job,INFO,,2021-10-24T10:01:12.098835126Z
+ussz9qg17fv1au,INFO,"    Found existing installation: trainer 0.1
+",,3262200743122736105,cmle-training-784952370485209087,us-central1-b,,root,,,,projects/qpecs-jakub/logs/master-replica-0,2021-10-24T10:01:38.248822317Z,exp3T4,qpecs-jakub,master-replica-0,ml_job,INFO,,2021-10-24T10:01:12.094843204Z
+ussz9qg17fv1at,INFO,"  Attempting uninstall: trainer
+",,3262200743122736105,cmle-training-784952370485209087,us-central1-b,,root,,,,projects/qpecs-jakub/logs/master-replica-0,2021-10-24T10:01:38.248822317Z,exp3T4,qpecs-jakub,master-replica-0,ml_job,INFO,,2021-10-24T10:01:12.093114800Z
+ussz9qg17fv1as,INFO,"Installing collected packages: trainer
+",,3262200743122736105,cmle-training-784952370485209087,us-central1-b,,root,,,,projects/qpecs-jakub/logs/master-replica-0,2021-10-24T10:01:38.248822317Z,exp3T4,qpecs-jakub,master-replica-0,ml_job,INFO,,2021-10-24T10:01:12.093089624Z
+ussz9qg17fv1ar,INFO,"Successfully built trainer
+",,3262200743122736105,cmle-training-784952370485209087,us-central1-b,,root,,,,projects/qpecs-jakub/logs/master-replica-0,2021-10-24T10:01:38.248822317Z,exp3T4,qpecs-jakub,master-replica-0,ml_job,INFO,,2021-10-24T10:01:11.034255008Z
+ussz9qg17fv1aq,INFO,"  Stored in directory: /root/.cache/pip/wheels/85/8e/fc/369b9127972cb554e70a10fc50e449daeaa06845e9493c9552
+",,3262200743122736105,cmle-training-784952370485209087,us-central1-b,,root,,,,projects/qpecs-jakub/logs/master-replica-0,2021-10-24T10:01:38.248822317Z,exp3T4,qpecs-jakub,master-replica-0,ml_job,INFO,,2021-10-24T10:01:11.033562663Z
+ussz9qg17fv1ap,INFO,"  Created wheel for trainer: filename=trainer-0.1-py3-none-any.whl size=18412 sha256=20beb550151f2a54a64fdcfe74404210f416b799c2a400ab8765e87faef10649
+",,3262200743122736105,cmle-training-784952370485209087,us-central1-b,,root,,,,projects/qpecs-jakub/logs/master-replica-0,2021-10-24T10:01:38.248822317Z,exp3T4,qpecs-jakub,master-replica-0,ml_job,INFO,,2021-10-24T10:01:11.033362710Z
+ussz9qg17fv1ao,INFO,"  Building wheel for trainer (setup.py): finished with status 'done'
+",,3262200743122736105,cmle-training-784952370485209087,us-central1-b,,root,,,,projects/qpecs-jakub/logs/master-replica-0,2021-10-24T10:01:38.248822317Z,exp3T4,qpecs-jakub,master-replica-0,ml_job,INFO,,2021-10-24T10:01:11.032603564Z
+ussz9qg17fv1an,INFO,"  Building wheel for trainer (setup.py): started
+",,3262200743122736105,cmle-training-784952370485209087,us-central1-b,,root,,,,projects/qpecs-jakub/logs/master-replica-0,2021-10-24T10:01:38.248822317Z,exp3T4,qpecs-jakub,master-replica-0,ml_job,INFO,,2021-10-24T10:01:10.592654823Z
+ussz9qg17fv1am,INFO,"Building wheels for collected packages: trainer
+",,3262200743122736105,cmle-training-784952370485209087,us-central1-b,,root,,,,projects/qpecs-jakub/logs/master-replica-0,2021-10-24T10:01:38.248822317Z,exp3T4,qpecs-jakub,master-replica-0,ml_job,INFO,,2021-10-24T10:01:10.591994436Z
+ussz9qg17fv1al,INFO,"Requirement already satisfied: urllib3!=1.25.0,!=1.25.1,<1.26,>=1.21.1 in /opt/conda/lib/python3.7/site-packages (from requests<3.0.0dev,>=2.18.0->google-api-core<2.0.0dev,>=1.16.0->google-cloud-core<2.0dev,>=1.2.0->google-cloud-storage>=1.14.0->trainer==0.1) (1.25.10)
+",,3262200743122736105,cmle-training-784952370485209087,us-central1-b,,root,,,,projects/qpecs-jakub/logs/master-replica-0,2021-10-24T10:01:38.248822317Z,exp3T4,qpecs-jakub,master-replica-0,ml_job,INFO,,2021-10-24T10:01:10.581310792Z
+ussz9qg17fv1ak,INFO,"Requirement already satisfied: idna<3,>=2.5 in /opt/conda/lib/python3.7/site-packages (from requests<3.0.0dev,>=2.18.0->google-api-core<2.0.0dev,>=1.16.0->google-cloud-core<2.0dev,>=1.2.0->google-cloud-storage>=1.14.0->trainer==0.1) (2.10)
+",,3262200743122736105,cmle-training-784952370485209087,us-central1-b,,root,,,,projects/qpecs-jakub/logs/master-replica-0,2021-10-24T10:01:38.248822317Z,exp3T4,qpecs-jakub,master-replica-0,ml_job,INFO,,2021-10-24T10:01:10.578521568Z
+ussz9qg17fv1aj,INFO,"Requirement already satisfied: chardet<4,>=3.0.2 in /opt/conda/lib/python3.7/site-packages (from requests<3.0.0dev,>=2.18.0->google-api-core<2.0.0dev,>=1.16.0->google-cloud-core<2.0dev,>=1.2.0->google-cloud-storage>=1.14.0->trainer==0.1) (3.0.4)
+",,3262200743122736105,cmle-training-784952370485209087,us-central1-b,,root,,,,projects/qpecs-jakub/logs/master-replica-0,2021-10-24T10:01:38.248822317Z,exp3T4,qpecs-jakub,master-replica-0,ml_job,INFO,,2021-10-24T10:01:10.576388815Z
+ussz9qg17fv1ai,INFO,"Requirement already satisfied: certifi>=2017.4.17 in /opt/conda/lib/python3.7/site-packages (from requests<3.0.0dev,>=2.18.0->google-api-core<2.0.0dev,>=1.16.0->google-cloud-core<2.0dev,>=1.2.0->google-cloud-storage>=1.14.0->trainer==0.1) (2020.6.20)
+",,3262200743122736105,cmle-training-784952370485209087,us-central1-b,,root,,,,projects/qpecs-jakub/logs/master-replica-0,2021-10-24T10:01:38.248822317Z,exp3T4,qpecs-jakub,master-replica-0,ml_job,INFO,,2021-10-24T10:01:10.574366235Z
+ussz9qg17fv1ah,INFO,"Requirement already satisfied: pycparser in /opt/conda/lib/python3.7/site-packages (from cffi>=1.0.0->google-crc32c<2.0dev,>=1.0; python_version >= ""3.5""->google-resumable-media<2.0dev,>=0.6.0->google-cloud-storage>=1.14.0->trainer==0.1) (2.20)
+",,3262200743122736105,cmle-training-784952370485209087,us-central1-b,,root,,,,projects/qpecs-jakub/logs/master-replica-0,2021-10-24T10:01:38.248822317Z,exp3T4,qpecs-jakub,master-replica-0,ml_job,INFO,,2021-10-24T10:01:10.572079948Z
+ussz9qg17fv1ag,INFO,"Requirement already satisfied: googleapis-common-protos<2.0dev,>=1.6.0 in /opt/conda/lib/python3.7/site-packages (from google-api-core<2.0.0dev,>=1.16.0->google-cloud-core<2.0dev,>=1.2.0->google-cloud-storage>=1.14.0->trainer==0.1) (1.51.0)
+",,3262200743122736105,cmle-training-784952370485209087,us-central1-b,,root,,,,projects/qpecs-jakub/logs/master-replica-0,2021-10-24T10:01:38.248822317Z,exp3T4,qpecs-jakub,master-replica-0,ml_job,INFO,,2021-10-24T10:01:10.568114151Z
+ussz9qg17fv1af,INFO,"Requirement already satisfied: protobuf>=3.12.0 in /opt/conda/lib/python3.7/site-packages (from google-api-core<2.0.0dev,>=1.16.0->google-cloud-core<2.0dev,>=1.2.0->google-cloud-storage>=1.14.0->trainer==0.1) (3.12.4)
+",,3262200743122736105,cmle-training-784952370485209087,us-central1-b,,root,,,,projects/qpecs-jakub/logs/master-replica-0,2021-10-24T10:01:38.248822317Z,exp3T4,qpecs-jakub,master-replica-0,ml_job,INFO,,2021-10-24T10:01:10.564572134Z
+ussz9qg17fv1ae,INFO,"Requirement already satisfied: requests<3.0.0dev,>=2.18.0 in /opt/conda/lib/python3.7/site-packages (from google-api-core<2.0.0dev,>=1.16.0->google-cloud-core<2.0dev,>=1.2.0->google-cloud-storage>=1.14.0->trainer==0.1) (2.24.0)
+",,3262200743122736105,cmle-training-784952370485209087,us-central1-b,,root,,,,projects/qpecs-jakub/logs/master-replica-0,2021-10-24T10:01:38.248822317Z,exp3T4,qpecs-jakub,master-replica-0,ml_job,INFO,,2021-10-24T10:01:10.552874721Z
+ussz9qg17fv1ad,INFO,"Requirement already satisfied: pyasn1<0.5.0,>=0.4.6 in /opt/conda/lib/python3.7/site-packages (from pyasn1-modules>=0.2.1->google-auth<2.0dev,>=1.11.0->google-cloud-storage>=1.14.0->trainer==0.1) (0.4.8)
+",,3262200743122736105,cmle-training-784952370485209087,us-central1-b,,root,,,,projects/qpecs-jakub/logs/master-replica-0,2021-10-24T10:01:38.248822317Z,exp3T4,qpecs-jakub,master-replica-0,ml_job,INFO,,2021-10-24T10:01:10.550489258Z
+ussz9qg17fv1ac,INFO,"Requirement already satisfied: cffi>=1.0.0 in /opt/conda/lib/python3.7/site-packages (from google-crc32c<2.0dev,>=1.0; python_version >= ""3.5""->google-resumable-media<2.0dev,>=0.6.0->google-cloud-storage>=1.14.0->trainer==0.1) (1.14.1)
+",,3262200743122736105,cmle-training-784952370485209087,us-central1-b,,root,,,,projects/qpecs-jakub/logs/master-replica-0,2021-10-24T10:01:38.248822317Z,exp3T4,qpecs-jakub,master-replica-0,ml_job,INFO,,2021-10-24T10:01:10.547605641Z
+ussz9qg17fv1ab,INFO,"Requirement already satisfied: google-api-core<2.0.0dev,>=1.16.0 in /opt/conda/lib/python3.7/site-packages (from google-cloud-core<2.0dev,>=1.2.0->google-cloud-storage>=1.14.0->trainer==0.1) (1.22.2)
+",,3262200743122736105,cmle-training-784952370485209087,us-central1-b,,root,,,,projects/qpecs-jakub/logs/master-replica-0,2021-10-24T10:01:38.248822317Z,exp3T4,qpecs-jakub,master-replica-0,ml_job,INFO,,2021-10-24T10:01:10.533743201Z
+ussz9qg17fv1aa,INFO,"Requirement already satisfied: rsa<5,>=3.1.4; python_version >= ""3.5"" in /opt/conda/lib/python3.7/site-packages (from google-auth<2.0dev,>=1.11.0->google-cloud-storage>=1.14.0->trainer==0.1) (4.6)
+",,3262200743122736105,cmle-training-784952370485209087,us-central1-b,,root,,,,projects/qpecs-jakub/logs/master-replica-0,2021-10-24T10:01:38.248822317Z,exp3T4,qpecs-jakub,master-replica-0,ml_job,INFO,,2021-10-24T10:01:10.529911190Z
+ussz9qg17fv1a9,INFO,"Requirement already satisfied: cachetools<5.0,>=2.0.0 in /opt/conda/lib/python3.7/site-packages (from google-auth<2.0dev,>=1.11.0->google-cloud-storage>=1.14.0->trainer==0.1) (4.1.1)
+",,3262200743122736105,cmle-training-784952370485209087,us-central1-b,,root,,,,projects/qpecs-jakub/logs/master-replica-0,2021-10-24T10:01:38.248822317Z,exp3T4,qpecs-jakub,master-replica-0,ml_job,INFO,,2021-10-24T10:01:10.527322587Z
+ussz9qg17fv1a8,INFO,"Requirement already satisfied: pyasn1-modules>=0.2.1 in /opt/conda/lib/python3.7/site-packages (from google-auth<2.0dev,>=1.11.0->google-cloud-storage>=1.14.0->trainer==0.1) (0.2.7)
+",,3262200743122736105,cmle-training-784952370485209087,us-central1-b,,root,,,,projects/qpecs-jakub/logs/master-replica-0,2021-10-24T10:01:38.248822317Z,exp3T4,qpecs-jakub,master-replica-0,ml_job,INFO,,2021-10-24T10:01:10.524024026Z
+ussz9qg17fv1a7,INFO,"Requirement already satisfied: setuptools>=40.3.0 in /opt/conda/lib/python3.7/site-packages (from google-auth<2.0dev,>=1.11.0->google-cloud-storage>=1.14.0->trainer==0.1) (49.6.0.post20200814)
+",,3262200743122736105,cmle-training-784952370485209087,us-central1-b,,root,,,,projects/qpecs-jakub/logs/master-replica-0,2021-10-24T10:01:38.248822317Z,exp3T4,qpecs-jakub,master-replica-0,ml_job,INFO,,2021-10-24T10:01:10.513555044Z
+ussz9qg17fv1a6,INFO,"Requirement already satisfied: google-crc32c<2.0dev,>=1.0; python_version >= ""3.5"" in /opt/conda/lib/python3.7/site-packages (from google-resumable-media<2.0dev,>=0.6.0->google-cloud-storage>=1.14.0->trainer==0.1) (1.0.0)
+",,3262200743122736105,cmle-training-784952370485209087,us-central1-b,,root,,,,projects/qpecs-jakub/logs/master-replica-0,2021-10-24T10:01:38.248822317Z,exp3T4,qpecs-jakub,master-replica-0,ml_job,INFO,,2021-10-24T10:01:10.509162238Z
+ussz9qg17fv1a5,INFO,"Requirement already satisfied: six in /opt/conda/lib/python3.7/site-packages (from google-resumable-media<2.0dev,>=0.6.0->google-cloud-storage>=1.14.0->trainer==0.1) (1.15.0)
+",,3262200743122736105,cmle-training-784952370485209087,us-central1-b,,root,,,,projects/qpecs-jakub/logs/master-replica-0,2021-10-24T10:01:38.248822317Z,exp3T4,qpecs-jakub,master-replica-0,ml_job,INFO,,2021-10-24T10:01:10.506604378Z
+ussz9qg17fv1a4,INFO,"Requirement already satisfied: pytz>=2017.2 in /opt/conda/lib/python3.7/site-packages (from pandas>=0.23.4->trainer==0.1) (2020.1)
+",,3262200743122736105,cmle-training-784952370485209087,us-central1-b,,root,,,,projects/qpecs-jakub/logs/master-replica-0,2021-10-24T10:01:38.248822317Z,exp3T4,qpecs-jakub,master-replica-0,ml_job,INFO,,2021-10-24T10:01:10.503319403Z
+ussz9qg17fv1a3,INFO,"Requirement already satisfied: numpy>=1.15.4 in /opt/conda/lib/python3.7/site-packages (from pandas>=0.23.4->trainer==0.1) (1.18.5)
+",,3262200743122736105,cmle-training-784952370485209087,us-central1-b,,root,,,,projects/qpecs-jakub/logs/master-replica-0,2021-10-24T10:01:38.248822317Z,exp3T4,qpecs-jakub,master-replica-0,ml_job,INFO,,2021-10-24T10:01:10.500953759Z
+ussz9qg17fv1a2,INFO,"Requirement already satisfied: python-dateutil>=2.7.3 in /opt/conda/lib/python3.7/site-packages (from pandas>=0.23.4->trainer==0.1) (2.8.1)
+",,3262200743122736105,cmle-training-784952370485209087,us-central1-b,,root,,,,projects/qpecs-jakub/logs/master-replica-0,2021-10-24T10:01:38.248822317Z,exp3T4,qpecs-jakub,master-replica-0,ml_job,INFO,,2021-10-24T10:01:10.497294988Z
+ussz9qg17fv1a1,INFO,"Requirement already satisfied: google-cloud-core<2.0dev,>=1.2.0 in /opt/conda/lib/python3.7/site-packages (from google-cloud-storage>=1.14.0->trainer==0.1) (1.3.0)
+",,3262200743122736105,cmle-training-784952370485209087,us-central1-b,,root,,,,projects/qpecs-jakub/logs/master-replica-0,2021-10-24T10:01:38.248822317Z,exp3T4,qpecs-jakub,master-replica-0,ml_job,INFO,,2021-10-24T10:01:10.492023424Z
+ussz9qg17fv1a0,INFO,"Requirement already satisfied: google-auth<2.0dev,>=1.11.0 in /opt/conda/lib/python3.7/site-packages (from google-cloud-storage>=1.14.0->trainer==0.1) (1.21.1)
+",,3262200743122736105,cmle-training-784952370485209087,us-central1-b,,root,,,,projects/qpecs-jakub/logs/master-replica-0,2021-10-24T10:01:38.248822317Z,exp3T4,qpecs-jakub,master-replica-0,ml_job,INFO,,2021-10-24T10:01:10.482463328Z
+ussz9qg17fv19z,INFO,"Requirement already satisfied: google-resumable-media<2.0dev,>=0.6.0 in /opt/conda/lib/python3.7/site-packages (from google-cloud-storage>=1.14.0->trainer==0.1) (1.0.0)
+",,3262200743122736105,cmle-training-784952370485209087,us-central1-b,,root,,,,projects/qpecs-jakub/logs/master-replica-0,2021-10-24T10:01:38.248822317Z,exp3T4,qpecs-jakub,master-replica-0,ml_job,INFO,,2021-10-24T10:01:10.474116619Z
+ussz9qg17fv19y,INFO,"Requirement already satisfied: pandas>=0.23.4 in /opt/conda/lib/python3.7/site-packages (from trainer==0.1) (1.1.2)
+",,3262200743122736105,cmle-training-784952370485209087,us-central1-b,,root,,,,projects/qpecs-jakub/logs/master-replica-0,2021-10-24T10:01:38.248822317Z,exp3T4,qpecs-jakub,master-replica-0,ml_job,INFO,,2021-10-24T10:01:10.465576562Z
+ussz9qg17fv19x,INFO,"Requirement already satisfied: google-cloud-storage>=1.14.0 in /opt/conda/lib/python3.7/site-packages (from trainer==0.1) (1.30.0)
+",,3262200743122736105,cmle-training-784952370485209087,us-central1-b,,root,,,,projects/qpecs-jakub/logs/master-replica-0,2021-10-24T10:01:38.248822317Z,exp3T4,qpecs-jakub,master-replica-0,ml_job,INFO,,2021-10-24T10:01:10.458637855Z
+ussz9qg17fv19w,INFO,"Processing /trainer-0.1.tar.gz
+",,3262200743122736105,cmle-training-784952370485209087,us-central1-b,,root,,,,projects/qpecs-jakub/logs/master-replica-0,2021-10-24T10:01:38.248822317Z,exp3T4,qpecs-jakub,master-replica-0,ml_job,INFO,,2021-10-24T10:01:10.068805977Z
+ussz9qg17fv19v,INFO,"INFO:Running command: pip3 install --user trainer-0.1.tar.gz
+",,3262200743122736105,cmle-training-784952370485209087,us-central1-b,,root,,,,projects/qpecs-jakub/logs/master-replica-0,2021-10-24T10:01:38.248822317Z,exp3T4,qpecs-jakub,master-replica-0,ml_job,INFO,,2021-10-24T10:01:09.514461999Z
+ussz9qg17fv19u,INFO,"Successfully installed trainer-0.1
+",,3262200743122736105,cmle-training-784952370485209087,us-central1-b,,root,,,,projects/qpecs-jakub/logs/master-replica-0,2021-10-24T10:01:38.248822317Z,exp3T4,qpecs-jakub,master-replica-0,ml_job,INFO,,2021-10-24T10:01:09.252527829Z
+ussz9qg17fv19t,INFO,"Installing collected packages: trainer
+",,3262200743122736105,cmle-training-784952370485209087,us-central1-b,,root,,,,projects/qpecs-jakub/logs/master-replica-0,2021-10-24T10:01:38.248822317Z,exp3T4,qpecs-jakub,master-replica-0,ml_job,INFO,,2021-10-24T10:01:09.223561073Z
+ussz9qg17fv19s,INFO,"Successfully built trainer
+",,3262200743122736105,cmle-training-784952370485209087,us-central1-b,,root,,,,projects/qpecs-jakub/logs/master-replica-0,2021-10-24T10:01:38.248822317Z,exp3T4,qpecs-jakub,master-replica-0,ml_job,INFO,,2021-10-24T10:01:09.223484581Z
+ussz9qg17fv19r,INFO,"  Stored in directory: /root/.cache/pip/wheels/85/8e/fc/369b9127972cb554e70a10fc50e449daeaa06845e9493c9552
+",,3262200743122736105,cmle-training-784952370485209087,us-central1-b,,root,,,,projects/qpecs-jakub/logs/master-replica-0,2021-10-24T10:01:38.248822317Z,exp3T4,qpecs-jakub,master-replica-0,ml_job,INFO,,2021-10-24T10:01:09.222809718Z
+ussz9qg17fv19q,INFO,"  Created wheel for trainer: filename=trainer-0.1-py3-none-any.whl size=18412 sha256=6ac0347f777f572214426664f9040f6184683d53e9cbb64493f28a1f177b6b10
+",,3262200743122736105,cmle-training-784952370485209087,us-central1-b,,root,,,,projects/qpecs-jakub/logs/master-replica-0,2021-10-24T10:01:38.248822317Z,exp3T4,qpecs-jakub,master-replica-0,ml_job,INFO,,2021-10-24T10:01:09.222799155Z
+ussz9qg17fv19p,INFO,"  Building wheel for trainer (setup.py): finished with status 'done'
+",,3262200743122736105,cmle-training-784952370485209087,us-central1-b,,root,,,,projects/qpecs-jakub/logs/master-replica-0,2021-10-24T10:01:38.248822317Z,exp3T4,qpecs-jakub,master-replica-0,ml_job,INFO,,2021-10-24T10:01:09.222306886Z
+ussz9qg17fv19o,INFO,"  Building wheel for trainer (setup.py): started
+",,3262200743122736105,cmle-training-784952370485209087,us-central1-b,,root,,,,projects/qpecs-jakub/logs/master-replica-0,2021-10-24T10:01:38.248822317Z,exp3T4,qpecs-jakub,master-replica-0,ml_job,INFO,,2021-10-24T10:01:08.805420847Z
+ussz9qg17fv19n,INFO,"Building wheels for collected packages: trainer
+",,3262200743122736105,cmle-training-784952370485209087,us-central1-b,,root,,,,projects/qpecs-jakub/logs/master-replica-0,2021-10-24T10:01:38.248822317Z,exp3T4,qpecs-jakub,master-replica-0,ml_job,INFO,,2021-10-24T10:01:08.804686938Z
+ussz9qg17fv19m,INFO,"Processing /trainer-0.1.tar.gz
+",,3262200743122736105,cmle-training-784952370485209087,us-central1-b,,root,,,,projects/qpecs-jakub/logs/master-replica-0,2021-10-24T10:01:38.248822317Z,exp3T4,qpecs-jakub,master-replica-0,ml_job,INFO,,2021-10-24T10:01:08.416086739Z
+ussz9qg17fv19l,INFO,"INFO:Running command: pip3 install --user --upgrade --force-reinstall --no-deps trainer-0.1.tar.gz
+",,3262200743122736105,cmle-training-784952370485209087,us-central1-b,,root,,,,projects/qpecs-jakub/logs/master-replica-0,2021-10-24T10:01:38.248822317Z,exp3T4,qpecs-jakub,master-replica-0,ml_job,INFO,,2021-10-24T10:01:07.857895609Z
+ussz9qg17fv19k,INFO,"INFO:Installing the package: gs://mytestbucketqpecs/exp3T4/models/packages/eef2a6d7e2e6e15f197dea893bc1f554e836d7627a0842895f8e2a874c16ff39/trainer-0.1.tar.gz
+",,3262200743122736105,cmle-training-784952370485209087,us-central1-b,,root,,,,projects/qpecs-jakub/logs/master-replica-0,2021-10-24T10:01:38.248822317Z,exp3T4,qpecs-jakub,master-replica-0,ml_job,INFO,,2021-10-24T10:01:07.857871018Z
+ussz9qg17fv19j,INFO,"INFO:Running command: gsutil -q cp gs://mytestbucketqpecs/exp3T4/models/packages/eef2a6d7e2e6e15f197dea893bc1f554e836d7627a0842895f8e2a874c16ff39/trainer-0.1.tar.gz trainer-0.1.tar.gz
+",,3262200743122736105,cmle-training-784952370485209087,us-central1-b,,root,,,,projects/qpecs-jakub/logs/master-replica-0,2021-10-24T10:01:38.248822317Z,exp3T4,qpecs-jakub,master-replica-0,ml_job,INFO,,2021-10-24T10:01:06.906730122Z
+ussz9qg17fv19i,INFO,"INFO:Downloading the package: gs://mytestbucketqpecs/exp3T4/models/packages/eef2a6d7e2e6e15f197dea893bc1f554e836d7627a0842895f8e2a874c16ff39/trainer-0.1.tar.gz
+",,3262200743122736105,cmle-training-784952370485209087,us-central1-b,,root,,,,projects/qpecs-jakub/logs/master-replica-0,2021-10-24T10:01:38.248822317Z,exp3T4,qpecs-jakub,master-replica-0,ml_job,INFO,,2021-10-24T10:01:06.906699236Z
+ussz9qg17fv19h,INFO,"INFO:Running module trainer.task.
+",,3262200743122736105,cmle-training-784952370485209087,us-central1-b,,root,,,,projects/qpecs-jakub/logs/master-replica-0,2021-10-24T10:01:38.248822317Z,exp3T4,qpecs-jakub,master-replica-0,ml_job,INFO,,2021-10-24T10:01:06.906681417Z
+ussz9qg17fv19g,INFO,"INFO:Running task with arguments: --module_name=trainer.task --package_uris=gs://mytestbucketqpecs/exp3T4/models/packages/eef2a6d7e2e6e15f197dea893bc1f554e836d7627a0842895f8e2a874c16ff39/trainer-0.1.tar.gz --job-dir=gs://mytestbucketqpecs/exp3T4/models
+",,3262200743122736105,cmle-training-784952370485209087,us-central1-b,,root,,,,projects/qpecs-jakub/logs/master-replica-0,2021-10-24T10:01:38.248822317Z,exp3T4,qpecs-jakub,master-replica-0,ml_job,INFO,,2021-10-24T10:01:06.905320745Z
+ussz9qg17fv19f,INFO,"INFO:Running run_module.py
+",,3262200743122736105,cmle-training-784952370485209087,us-central1-b,,root,,,,projects/qpecs-jakub/logs/master-replica-0,2021-10-24T10:01:38.248822317Z,exp3T4,qpecs-jakub,master-replica-0,ml_job,INFO,,2021-10-24T10:01:06.837142014Z
+ussz9qg17fv19e,INFO,"INFO:Updating master address to local address cmle-training-784952370485209087
+",,3262200743122736105,cmle-training-784952370485209087,us-central1-b,,root,,,,projects/qpecs-jakub/logs/master-replica-0,2021-10-24T10:01:38.248822317Z,exp3T4,qpecs-jakub,master-replica-0,ml_job,INFO,,2021-10-24T10:01:06.837097493Z
+1rjgwwug3w3fza6,NOTICE,"File system has been successfully mounted.
+",root,3262200743122736105,cmle-training-784952370485209087,us-central1-b,,gcsfuse,,,,projects/qpecs-jakub/logs/gcsfuse.logs.userproject,2021-10-24T10:01:39.144251734Z,exp3T4,qpecs-jakub,master-replica-0.gcsfuse,ml_job,NOTICE,,2021-10-24T09:55:05.163699459Z
+1rjgwwug3w3fza5,NOTICE,"Mounting file system ""gcsfuse""...
+",root,3262200743122736105,cmle-training-784952370485209087,us-central1-b,,gcsfuse,,,,projects/qpecs-jakub/logs/gcsfuse.logs.userproject,2021-10-24T10:01:39.144251734Z,exp3T4,qpecs-jakub,master-replica-0.gcsfuse,ml_job,NOTICE,,2021-10-24T09:55:05.127153701Z
+1rjgwwug3w3fza4,NOTICE,"Opening GCS connection...
+",root,3262200743122736105,cmle-training-784952370485209087,us-central1-b,,gcsfuse,,,,projects/qpecs-jakub/logs/gcsfuse.logs.userproject,2021-10-24T10:01:39.144251734Z,exp3T4,qpecs-jakub,master-replica-0.gcsfuse,ml_job,NOTICE,,2021-10-24T09:55:05.125039668Z
+usularchmo,,,,,,,,,,,,projects/qpecs-jakub/logs/ml.googleapis.com%2Fexp3T4,2021-10-24T09:53:12.348679481Z,exp3T4,qpecs-jakub,service,ml_job,INFO,Waiting for training program to start.,2021-10-24T09:53:11.462504280Z
+s1g50ibwi,,Job exp3T4 is queued.,,,,,ml.googleapis.com,,QUEUED,,,projects/qpecs-jakub/logs/ml.googleapis.com%2Fexp3T4,2021-10-24T09:53:10.250990206Z,exp3T4,qpecs-jakub,service,ml_job,INFO,,2021-10-24T09:53:09.860Z
+usularchmn,,,,,,,,,,,,projects/qpecs-jakub/logs/ml.googleapis.com%2Fexp3T4,2021-10-24T09:53:10.349232272Z,exp3T4,qpecs-jakub,service,ml_job,INFO,Waiting for job to be provisioned.,2021-10-24T09:53:09.774026354Z
+s1g50ibwh,,Job creation request has been successfully validated.,,,,,ml.googleapis.com,,,,,projects/qpecs-jakub/logs/ml.googleapis.com%2Fexp3T4,2021-10-24T09:53:10.250990206Z,exp3T4,qpecs-jakub,service,ml_job,INFO,,2021-10-24T09:53:09.586Z
+s1g50ibwg,,Validating job requirements...,,,,,ml.googleapis.com,,,,,projects/qpecs-jakub/logs/ml.googleapis.com%2Fexp3T4,2021-10-24T09:53:10.250990206Z,exp3T4,qpecs-jakub,service,ml_job,INFO,,2021-10-24T09:53:09.409Z
