@@ -1,3 +1,6 @@
+All rights belong to: https://github.com/NVIDIA/cuda-samples/tree/master/Samples/deviceQuery
+The sample was modified to return additional device properties.
+
 # deviceQuery - Device Query
 
 ## Description
