@@ -16,113 +16,45 @@ import argparse
 import time
 from trainer import resnet_entry_point as rep
 from trainer import inception_entry_point as iep
+from trainer import dcgan_entry_point as dep
 import torch
 #import entry_point as rep
-
-def get_args():
-    """Define the task arguments with the default values.
-
-    Returns:
-        experiment parameters
-    """
-    args_parser = argparse.ArgumentParser()
-
-    # Data files arguments
-    args_parser.add_argument(
-        '--train-files',
-        help='GCS or local paths to training data',
-        nargs='+',
-        required=True)
-    args_parser.add_argument(
-        '--eval-files',
-        help='GCS or local paths to evaluation data',
-        nargs='+',
-        required=True)
-
-    # Experiment arguments
-    args_parser.add_argument(
-        '--batch-size',
-        help='Batch size for each training and evaluation step.',
-        type=int,
-        default=100)
-    args_parser.add_argument(
-        '--num-epochs',
-        help="""\
-        Maximum number of training data epochs on which to train.
-        If both --train-size and --num-epochs are specified,
-        --train-steps will be: (train-size/train-batch-size) * num-epochs.\
-        """,
-        default=50,
-        type=int,
-    )
-    args_parser.add_argument(
-        '--seed',
-        help='Random seed (default: 42)',
-        type=int,
-        default=42,
-    )
-
-    # Feature columns arguments
-    args_parser.add_argument(
-        '--embed-categorical-columns',
-        help="""
-        If set to True, the categorical columns will be embedded
-        and used in the model.
-        """,
-        action='store_true',
-        default=True,
-    )
-
-    # Estimator arguments
-    args_parser.add_argument(
-        '--learning-rate',
-        help='Learning rate value for the optimizers.',
-        default=0.1,
-        type=float)
-    args_parser.add_argument(
-        '--weight-decay',
-        help="""
-      The factor by which the learning rate should decay by the end of the
-      training.
-
-      decayed_learning_rate =
-        learning_rate * decay_rate ^ (global_step / decay_steps)
-
-      If set to 0 (default), then no decay will occur.
-      If set to 0.5, then the learning rate should reach 0.5 of its original
-          value at the end of the training.
-      Note that decay_steps is set to train_steps.
-      """,
-        default=0,
-        type=float)
-    args_parser.add_argument(
-        '--test-split',
-        help='split size for training / testing dataset',
-        type=float,
-        default=0.1,
-    )
-
-    # Saved model arguments
-    args_parser.add_argument(
-        '--job-dir',
-        help='GCS location to export models')
-    args_parser.add_argument(
-        '--model-name',
-        help='The name of your saved model',
-        default='model.pth')
-
-    return args_parser.parse_args()
-
 
 def main():
     """Setup / Start the experiment
     """
 
     batch_sizes = [16, 32, 48, 64, 96, 128]
+    batch_sizes_inception = [4, 8, 16, 24]
     sample_size = 1024
     replication = 3
-    print("Hellooo2")
+    print("Hihi")
     runtimes = []
+    for batch_size in batch_sizes_inception:
+        # INCEPTION ---------------------------------------------
+        for k in range(replication):
+            model = iep.skyline_model_provider()
+            iteration = iep.skyline_iteration_provider(model)
+
+            iterations = int(sample_size / batch_size)
+            inputs = []
+            for i in range(iterations):
+                inputs.append(iep.skyline_input_provider(batch_size=batch_size))
+
+            start = time.time()
+            for itInput in list(inputs):
+                iterationInput = itInput
+                def runnable():
+                    iteration(*iterationInput)
+                runnable()
+                inputs.remove(itInput)
+                torch.cuda.empty_cache()
+
+            del model
+            torch.cuda.empty_cache()
+            endTrainModel = time.time()
+            runtime = endTrainModel - start
+            runtimes.append(("Inception", batch_size, runtime))
     for batch_size in batch_sizes:
         # Resnet ---------------------------------------------
 
@@ -142,6 +74,7 @@ def main():
                     iteration(*iterationInput)
                 runnable()
                 inputs.remove(itInput)
+                torch.cuda.empty_cache()
 
             del model
             torch.cuda.empty_cache()
@@ -149,29 +82,33 @@ def main():
             runtime = endTrainModel - start
             runtimes.append(("Resnet", batch_size, runtime))
 
-        # INCEPTION ---------------------------------------------
+        # dcgan ---------------------------------------------
+
         for k in range(replication):
-            model = iep.skyline_model_provider()
-            iteration = iep.skyline_iteration_provider(model)
+            models = dep.skyline_model_provider()
+            iteration = dep.skyline_iteration_provider(*models)
 
             iterations = int(sample_size / batch_size)
             inputs = []
             for i in range(iterations):
-                inputs.append(iep.skyline_input_provider(batch_size=batch_size))
+                inputs.append(dep.skyline_input_provider(batch_size=batch_size))
 
             start = time.time()
             for itInput in list(inputs):
                 iterationInput = itInput
+
                 def runnable():
                     iteration(*iterationInput)
+
                 runnable()
                 inputs.remove(itInput)
+                torch.cuda.empty_cache()
 
-            del model
+            del models
             torch.cuda.empty_cache()
             endTrainModel = time.time()
             runtime = endTrainModel - start
-            runtimes.append(("Inception", batch_size, runtime))
+            runtimes.append(("dcgan", batch_size, runtime))
     print('\n'.join(map(str, runtimes)))
 
     def runnable():
